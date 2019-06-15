@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Thunderstone Quest Randomizer</title>
+  <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+  <link href="plugins/jquery.mswitch.css" rel="stylesheet" type="text/css" />
+  <link href="tsq.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="plugins/jquery.mswitch.js"></script>
+  <script src="CardList.js" type="module"></script>
+</head>
+<body>
+  <div id="frame">
+    <div id="board">
+      <div id="marketplace">
+        <span class="contents">MARKETPLACE</span>
+      </div>
+      <div class="card row1 column1">
+        <span class="contents" id="market1">various stuff</span>
+      </div>
+      <div class="card row1 column2">
+        <span class="contents" id="market2"></span>
+      </div>
+      <div class="card row1 column3">
+        <span class="contents" id="market3"></span>
+      </div>
+      <div class="card row1 column4">
+        <span class="contents" id="market4"></span>
+      </div>
+      <div class="card row2 column1">
+        <span class="contents" id="market8"></span>
+      </div>
+      <div class="card row2 column2">
+        <span class="contents" id="market7"></span>
+      </div>
+      <div class="card row2 column3">
+        <span class="contents" id="market6"></span>
+      </div>
+      <div class="card row2 column4">
+        <span class="contents" id="market5"></span>
+      </div>
+      <div id="guildsquarters">
+        <span class="contents">GUILDS’ QUARTERS</span>
+      </div>
+      <div class="card row3 column1">
+        <span class="contents" id="hero1"></span>
+      </div>
+      <div class="card row3 column2">
+        <span class="contents" id="hero2"></span>
+      </div>
+      <div class="card row3 column3">
+        <span class="contents" id="hero3"></span>
+      </div>
+      <div class="card row3 column4">
+        <span class="contents" id="hero4"></span>
+      </div>
+      <!-- Dungeon -->
+      <div id="wilderness" class="level0">
+        <span class="contents" id="mob"></span>
+      </div>
+      <div class="card level1 column5">
+        <span class="contents" id="monster1"></span>
+      </div>
+      <div class="room level1 column6">
+        <span class="contents" id="room1a"></span>
+      </div>
+      <div class="room level1 column7">
+        <span class="contents" id="room1b"></span>
+      </div>
+      <div class="card level2 column5">
+        <span class="contents" id="monster2"></span>
+      </div>
+      <div class="room level2 column6">
+        <span class="contents" id="room2a"></span>
+      </div>
+      <div class="room level2 column7">
+        <span class="contents" id="room2b"></span>
+      </div>
+      <div class="card level3 column5">
+        <span class="contents" id="room"></span>
+      </div>
+      <div class="room level3 column6">
+        <span class="contents" id="room3a"></span>
+      </div>
+      <div class="room level3 column7">
+        <span class="contents" id="room3b"></span>
+      </div>
+      <div id="lair" class="level4">
+        <span class="contents" id="guardian"></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

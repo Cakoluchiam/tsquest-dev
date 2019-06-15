@@ -88,7 +88,12 @@ $(function() {
 
   // TODO: database the cards separately from their groups
   $.getJSON("cards.json",function(data){
-    groups = data;
+    var db = {};
+    data.forEach(function(card){
+      if(db[card.Category] === undefined) db[card.Category] = {};
+      db[card.Category][card.Name] = card;
+    });
+    groups = db;
     parseGroups(groups);
     log(null,"Cards loaded:",groups);
   }).fail(function() {

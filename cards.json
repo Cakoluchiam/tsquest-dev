@@ -1,2817 +1,3049 @@
-{
-  "Heroes": {
-    "Outlands": {
-      "Quest": "Promos",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
+[
+  {
+    "Name": "Outlands",
+    "Quest": "Promos",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Fighter": true,
+      "Human": true
     },
-    "Stalker": {
-      "Quest": "Promos",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 6,
-      "Summary": "Stalker uses Gear tokens for strength and provides [Light] at [III].",
-      "Types": {
-        "Rogue": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "The Yellow Knight": {
-      "Quest": "Promos",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Edlin": {
-      "Quest": "Bandits of Black Rock",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 6,
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Gorlandor": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Hawkswood": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Avian",
-        "Elf"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 6,
-      "Types": {
-        "Rogue": true,
-        "Avian": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Pylorian": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 6,
-      "Summary": "[Arcane Spell] specialist.",
-      "Types": {
-        "Wizard": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Scathian": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Halfling"
-      ],
-      "Classes": [
-        "Rogue",
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Rogue": true,
-        "Wizard": true,
-        "Halfling": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "Silverhelm": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Dwarf"
-      ],
-      "Classes": [
-        "Cleric",
-        "Fighter"
-      ],
-      "Cost": 6,
-      "Types": {
-        "Cleric": true,
-        "Fighter": true,
-        "Dwarf": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Stormhand": {
-      "Quest": "A Mirror in the Dark",
-      "Races": [
-        "Dwarf"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 7,
-      "Summary": "[Edged Weapon] specialist.",
-      "Types": {
-        "Fighter": true,
-        "Dwarf": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Avania": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Celestial",
-        "Human"
-      ],
-      "Classes": [
-        "Cleric"
-      ],
-      "Cost": 6,
-      "Types": {
-        "Cleric": true,
-        "Celestial": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Brimstone": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Dwarf"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 8,
-      "Summary": "The more [Light] you have, the more powerful Brimstone gets.",
-      "Types": {
-        "Rogue": true,
-        "Dwarf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Ehrlingal": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Halfling"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 7,
-      "Summary": "Ehrlingal provides [Light] at [II] and is a [Dagger] specialist.",
-      "Types": {
-        "Rogue": true,
-        "Halfling": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "Felin": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Cleric",
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Summary": "Felin can shapeshift her form, depending on the situation.",
-      "Types": {
-        "Cleric": true,
-        "Wizard": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Gendarme": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Dwarf"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 6,
-      "Summary": "Gendarme uses secret Dwarven magic to empower your [Weapons].",
-      "Types": {
-        "Wizard": true,
-        "Dwarf": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Sephilest": {
-      "Quest": "Total Eclipse of the Sun",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Fighter": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Baharan": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Triton"
-      ],
-      "Classes": [
-        "Cleric"
-      ],
-      "Cost": 7,
-      "Summary": "Baharan uses strange magics, allowing you to discard cards for bonuses.",
-      "Types": {
-        "Cleric": true,
-        "Triton": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Darameric": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Cleric",
-        "Wizard"
-      ],
-      "Cost": 9,
-      "Types": {
-        "Cleric": true,
-        "Wizard": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Linsha": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Markennan": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 7,
-      "Summary": "[Blunt Weapon] specialist.",
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Nimblefingers": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Rogue": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Regalen": {
-      "Quest": "Risen from the Mire",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Wizard": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Darkrend": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Summary": "Using forbidden blood magic, Darkrend inflicts [Wound] to power her attacks.",
-      "Types": {
-        "Wizard": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Grimwolf": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Undead",
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 6,
-      "Summary": "Risen to complete his mission, Grimwolf bleeds ([Wound]) to power himself.",
-      "Types": {
-        "Fighter": true,
-        "Undead": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Honormain": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Cleric"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Cleric": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Jadress": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 6,
-      "Summary": "[Bow Weapon] specialist.",
-      "Types": {
-        "Rogue": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "Moonblades": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter",
-        "Rogue"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Fighter": true,
-        "Rogue": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "Stormskull": {
-      "Quest": "At the Foundations of the World",
-      "Races": [
-        "Human",
-        "Orc"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Types": {
-        "Wizard": true,
-        "Human": true,
-        "Orc": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Aird": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Rogue"
-      ],
-      "Cost": 6,
-      "Summary": "Aird uses your opponents’ strengths against them.",
-      "Types": {
-        "Rogue": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Gold": true
-      },
-      "Category": "Heroes"
-    },
-    "Arcanian": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 8,
-      "Summary": "Arcanian's sorcery changes dice rolls. She also provides [Light] at [II].",
-      "Types": {
-        "Wizard": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Dunardic": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ],
-      "Cost": 6,
-      "Summary": "Once a Town Guard, Dunardic uses your [XP] as a resource.",
-      "Types": {
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Regian": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Cleric"
-      ],
-      "Cost": 7,
-      "Types": {
-        "Cleric": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Terakian": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Cleric",
-        "Fighter"
-      ],
-      "Cost": 8,
-      "Summary": "[Potion] specialist.",
-      "Types": {
-        "Cleric": true,
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Veris": {
-      "Quest": "Ripples in Time",
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Wizard"
-      ],
-      "Cost": 7,
-      "Summary": "Veris has the ability to make [Weapons] glow bright.",
-      "Types": {
-        "Wizard": true,
-        "Elf": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Light": true
-      },
-      "Category": "Heroes"
-    },
-    "Graeme Crawford": {
-      "Quest": "What Lies Beneath",
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Cleric",
-        "Fighter"
-      ],
-      "Cost": 8,
-      "Summary": "This grizzled veteran may not like you, but he'll heal you. When the situation calls for it, he can imbue his attack with [Magic Attack].",
-      "Types": {
-        "Cleric": true,
-        "Fighter": true,
-        "Human": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Category": "Heroes"
-    },
-    "Khomros": {
-      "Quest": "What Lies Beneath",
-      "Cost": 8,
-      "Category": "Heroes",
-      "Summary": "Better at battling the [Aberrations] and [Plants] of the sewer, Khomros uses whatever [Weapons] he finds (discards from your deck).",
-      "Types": {
-        "Triton": true,
-        "Fighter": true
-      },
-      "Keywords": {
-        "Aberration": true,
-        "Plant": true,
-        "Weapon": true,
-        "Physical Attack": true,
-        "Deck": true
-      },
-      "Races": [
-        "Triton"
-      ],
-      "Classes": [
-        "Fighter"
-      ]
-    },
-    "Ophialyn the Tracker": {
-      "Quest": "What Lies Beneath",
-      "Cost": 9,
-      "Category": "Heroes",
-      "Summary": "Ophialyn is the best hunter of [Beasts], [Fey], [Giants], [Golems], and [Humanoids]. She learns to track like a [Rogue] at [Level II].",
-      "Types": {
-        "Elf": true,
-        "Human": true,
-        "Fighter": true
-      },
-      "Keywords": {
-        "Beast": true,
-        "Fey": true,
-        "Giant": true,
-        "Golem": true,
-        "Humanoid": true,
-        "Rogue": true,
-        "Physical Attack": true
-      },
-      "Races": [
-        "Elf",
-        "Human"
-      ],
-      "Classes": [
-        "Fighter"
-      ]
-    },
-    "Runiva Highstone": {
-      "Quest": "What Lies Beneath",
-      "Cost": 7,
-      "Category": "Heroes",
-      "Summary": "Experienced at battling [Beasts] and [Giants], Runiva will light the path if she can find (discard from your deck) the right spell.",
-      "Types": {
-        "Dwarf": true,
-        "Wizard": true
-      },
-      "Keywords": {
-        "Beast": true,
-        "Giant": true,
-        "Magic Attack": true,
-        "Light": true,
-        "Deck": true
-      },
-      "Races": [
-        "Dwarf"
-      ],
-      "Classes": [
-        "Wizard"
-      ]
-    },
-    "Uvina the Delver": {
-      "Quest": "What Lies Beneath",
-      "Cost": 7,
-      "Category": "Heroes",
-      "Summary": "Uvina delves through (discards from) your deck, getting extra [Gear] for your next venture.",
-      "Types": {
-        "Halfling": true,
-        "Rogue": true
-      },
-      "Keywords": {
-        "Gear": true,
-        "Physical Attack": true,
-        "Gold": true,
-        "Light": true,
-        "Deck": true
-      },
-      "Races": [
-        "Halfling"
-      ],
-      "Classes": [
-        "Rogue"
-      ]
-    },
-    "Wiltran Proudmore": {
-      "Quest": "What Lies Beneath",
-      "Cost": 8,
-      "Category": "Heroes",
-      "Summary": "Wiltran brews [Potions] and focuses his efforts on healing your [Wound Cards] by discarding them straight out of your deck. He learns [Wizard]ly arts at [Level II].",
-      "Types": {
-        "Halfling": true,
-        "Cleric": true
-      },
-      "Keywords": {
-        "Potion": true,
-        "Wound Card": true,
-        "Wizard": true,
-        "Magic Attack": true,
-        "Gold": true,
-        "Deck": true
-      },
-      "Races": [
-        "Halfling"
-      ],
-      "Classes": [
-        "Cleric"
-      ]
-    },
-    "Breezy": {
-      "Quest": "Frozen in Time",
-      "Cost": 6,
-      "Category": "Heroes",
-      "Summary": "A master of the elemental arts.",
-      "Types": {
-        "Human": true,
-        "Wizard": true
-      },
-      "Keywords": {
-        "Magic Attack": true
-      },
-      "Races": [
-        "Human"
-      ],
-      "Classes": [
-        "Wizard"
-      ]
-    },
-    "Drulfal the Primordial": {
-      "Quest": "Frozen in Time",
-      "Cost": 8,
-      "Category": "Heroes",
-      "Summary": "Drulfal is adept at both wielding and withstanding the elements.",
-      "Types": {
-        "Elemental": true,
-        "Dwarf": true,
-        "Cleric": true
-      },
-      "Keywords": {
-        "Physical Attack": true
-      },
-      "Races": [
-        "Elemental",
-        "Dwarf"
-      ],
-      "Classes": [
-        "Cleric"
-      ]
-    },
-    "Lefira": {
-      "Quest": "Frozen in Time",
-      "Cost": 6,
-      "Category": "Heroes",
-      "Summary": "Lefira gets the most out of [Bread] tokens and [Edged Weapons]. She produces [Gold] at [Level II].",
-      "Types": {
-        "Halfling": true,
-        "Fighter": true
-      },
-      "Keywords": {
-        "Bread": true,
-        "Gold": true,
-        "Physical Attack": true
-      },
-      "Races": [
-        "Halfling"
-      ],
-      "Classes": [
-        "Fighter"
-      ]
-    },
-    "Lilande": {
-      "Quest": "Frozen in Time",
-      "Cost": 8,
-      "Category": "Heroes",
-      "Summary": "This elven bard learns the arts of the [Wizard] at [Level II] and the [Fighter] at [Level III]. Lilande’s tale is best if you have a [Side Quest] or [Prestige Class] to relate.",
-      "Types": {
-        "Elf": true,
-        "Rogue": true
-      },
-      "Keywords": {
-        "Wizard": true,
-        "Fighter": true,
-        "Side Quest": true,
-        "Prestige Class": true,
-        "Physical Attack": true,
-        "Light": true,
-        "Gold": true
-      },
-      "Races": [
-        "Elf"
-      ],
-      "Classes": [
-        "Rogue"
-      ]
-    },
-    "Rugduhr Blackmane": {
-      "Quest": "Frozen in Time",
-      "Cost": 7,
-      "Category": "Heroes",
-      "Summary": "Rugduhr maximizes his [Gear] while he hunts the one he once served.",
-      "Types": {
-        "Demon": true,
-        "Dwarf": true,
-        "Rogue": true
-      },
-      "Keywords": {
-        "Gear": true,
-        "Physical Attack": true,
-        "Gold": true,
-        "Light": true
-      },
-      "Races": [
-        "Demon",
-        "Dwarf"
-      ],
-      "Classes": [
-        "Rogue"
-      ]
-    },
-    "Samly Thrackson": {
-      "Quest": "Frozen in Time",
-      "Cost": 7,
-      "Category": "Heroes",
-      "Summary": "Samly destroys the impurities and inefficiencies he finds in decks.",
-      "Types": {
-        "Human": true,
-        "Orc": true,
-        "Cleric": true,
-        "Fighter": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Deck": true
-      },
-      "Races": [
-        "Human",
-        "Orc"
-      ],
-      "Classes": [
-        "Cleric",
-        "Fighter"
-      ]
+    "Keywords": {
+      "Physical Attack": true
     }
   },
-  "Items": {
-    "Necklace of Dawn": {
-      "Quest": "Promos",
-      "Category": "Items"
+  {
+    "Name": "Stalker",
+    "Quest": "Promos",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 6,
+    "Summary": "Stalker uses Gear tokens for strength and provides [Light] at [III].",
+    "Types": {
+      "Rogue": true,
+      "Elf": true
     },
-    "Scionic Annals": {
-      "Quest": "Bandits of Black Rock",
-      "Category": "Items"
-    },
-    "Amulet of Infravision": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Items"
-    },
-    "Gem of Healing": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Items"
-    },
-    "Tome of Knowledge": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Items"
-    },
-    "Elven Ring": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Items"
-    },
-    "Headband of Intellect": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Items"
-    },
-    "Strength Gauntlets": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Items"
-    },
-    "Wand of Light": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Items"
-    },
-    "Crystal of Scrying": {
-      "Quest": "Risen from the Mire",
-      "Category": "Items"
-    },
-    "Holy Symbol": {
-      "Quest": "Risen from the Mire",
-      "Category": "Items"
-    },
-    "Potion of Stamina": {
-      "Quest": "Risen from the Mire",
-      "Category": "Items"
-    },
-    "Ring of Learning": {
-      "Quest": "Risen from the Mire",
-      "Category": "Items"
-    },
-    "Damilu Huskie": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Items"
-    },
-    "Daramere's Cloak": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Items"
-    },
-    "Potion of Light": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Items"
-    },
-    "Ring of Proficiency": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Items"
-    },
-    "Amulet of Power": {
-      "Quest": "Ripples in Time",
-      "Category": "Items"
-    },
-    "Lightstone Gem": {
-      "Quest": "Ripples in Time",
-      "Category": "Items"
-    },
-    "Nature's Amulet": {
-      "Quest": "Ripples in Time",
-      "Category": "Items"
-    },
-    "Ring of Spell Storing": {
-      "Quest": "Ripples in Time",
-      "Category": "Items"
-    },
-    "Bracers of Cleansing": {
-      "Quest": "What Lies Beneath",
-      "Cost": 5,
-      "Category": "Items",
-      "Summary": "[Village] or [Dungeon]: Discard 3 cards from your deck. Heal 1 [Wound Card] discarded or gain 1 [Light].",
-      "Types": {
-        "Magic": true,
-        "Item": true
-      },
-      "Keywords": {
-        "Village": true,
-        "Dungeon": true,
-        "Gold": true,
-        "Magic Attack": true,
-        "Skill": true,
-        "Light": true,
-        "Wound Card": true,
-        "Deck": true
-      }
-    },
-    "Neverending Rope Spool": {
-      "Quest": "What Lies Beneath",
-      "Cost": 4,
-      "Category": "Items",
-      "Summary": "After this card is discarded from your deck, draw it if you have a [Rogue]. [Village] or [Dungeon]: Give 1 [Hero] the [Rogue] keyword and +1 to the values they have printed: [Physical Attack], [Magic Attack], [Skill], [Light], [Level], and [Gold]. Discard 1 card from your deck for each [Rogue] you now have.",
-      "Types": {
-        "Magic": true,
-        "Item": true
-      },
-      "Keywords": {
-        "Village": true,
-        "Dungeon": true,
-        "Rogue": true,
-        "Physical Attack": true,
-        "Magic Attack": true,
-        "Gold": true,
-        "Skill": true,
-        "Light": true,
-        "Level": true,
-        "Victory Point": true,
-        "Deck": true
-      }
-    },
-    "Studded Leather Shirt": {
-      "Quest": "What Lies Beneath",
-      "Cost": 3,
-      "Category": "Items",
-      "Summary": "+1 [Physical Attack] if this [Hero] is [Human] or wields a [Weapon]. You may resolve the [After Battle] from 1 Studded Leather Shirt per turn, or 2 per turn if this is a [Fighter]. [After Battle]: Take −1 [Wound] from Monsters this turn.",
-      "Types": {
-        "Item": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Skill": true,
-        "Gold": true,
-        "After Battle": true,
-        "Wound": true,
-        "Fighter": true,
-        "Human": true,
-        "Weapon": true
-      },
-      "Races": [
-        "Race"
-      ],
-      "Classes": [
-        "Class"
-      ]
-    },
-    "Wand of Illumination": {
-      "Quest": "What Lies Beneath",
-      "Cost": 7,
-      "Category": "Items",
-      "Summary": "[Spoils]: If you have a [Cleric], [Wizard], or [Halfling], gain 1 [Lantern] token.",
-      "Types": {
-        "Magic": true,
-        "Item": true
-      },
-      "Keywords": {
-        "Cleric": true,
-        "Wizard": true,
-        "Halfling": true,
-        "Lantern": true,
-        "Light": true,
-        "Victory Point": true,
-        "Magic Attack": true,
-        "Gold": true,
-        "Spoils": true
-      }
-    },
-    "Eternal Flame": {
-      "Quest": "Frozen in Time",
-      "Cost": 8,
-      "Category": "Items",
-      "Summary": "You may only give this card’s +[Magic Attack] and +[Skill] boosts to a [Dwarf] or [Cleric].",
-      "Types": {
-        "Elemental": true,
-        "Magic": true,
-        "Item": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Skill": true,
-        "Light": true,
-        "Gold": true,
-        "Dwarf": true,
-        "Cleric": true
-      }
-    },
-    "Ice Climbing Gear": {
-      "Quest": "Frozen in Time",
-      "Cost": 4,
-      "Category": "Items",
-      "Summary": "This card’s [Skill] and [Light] values each have +1 when given to a [Halfling] or [Rogue]. Ignore [Alert] effects from Dungeon Rooms.",
-      "Types": {
-        "Item": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Light": true,
-        "Alert": true,
-        "Halfling": true,
-        "Rogue": true,
-        "Gold": true,
-        "Victory Point": true
-      }
-    },
-    "Snow Trekking Tools": {
-      "Quest": "Frozen in Time",
-      "Cost": 4,
-      "Category": "Items",
-      "Summary": "[Frostbite Wounds] you take are [Wounds] instead. [Dungeon]: Discard this card and another card to draw 1 card.",
-      "Types": {
-        "Item": true
-      },
-      "Keywords": {
-        "Frostbite Wound": true,
-        "Wound": true,
-        "Light": true,
-        "Victory Point": true,
-        "Skill": true,
-        "Gold": true
-      }
-    },
-    "Tent": {
-      "Quest": "Frozen in Time",
-      "Cost": 5,
-      "Category": "Items",
-      "Summary": "You may ignore [After Battle] abilities from Dungeon Rooms. [Spoils]: You have +1 [HP]. You may only use [Spoils] from 1 Tent per turn.",
-      "Types": {
-        "Item": true
-      },
-      "Keywords": {
-        "After Battle": true,
-        "Spoils": true,
-        "HP": true,
-        "Light": true,
-        "Victory Point": true,
-        "Skill": true,
-        "Gold": true
-      }
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true
     }
   },
-  "Spells": {
-    "Form of the Juggernaut": {
-      "Quest": "Promos",
-      "Category": "Spells"
+  {
+    "Name": "The Yellow Knight",
+    "Quest": "Promos",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Fighter": true,
+      "Human": true
     },
-    "Dark Fire Torch": {
-      "Quest": "Bandits of Black Rock",
-      "Category": "Spells"
-    },
-    "Fireball": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Spells"
-    },
-    "Future Vision": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Spells"
-    },
-    "Magic Missile": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Spells"
-    },
-    "Moonlight": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Spells"
-    },
-    "Arcane Touch": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Spells"
-    },
-    "Consecration": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Spells"
-    },
-    "Lightning Bolt": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Spells"
-    },
-    "Nature's Fury": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Spells"
-    },
-    "Arcane Aura": {
-      "Quest": "Risen from the Mire",
-      "Category": "Spells"
-    },
-    "Charm Monster": {
-      "Quest": "Risen from the Mire",
-      "Category": "Spells"
-    },
-    "Enchant Weapons": {
-      "Quest": "Risen from the Mire",
-      "Category": "Spells"
-    },
-    "Vampiric Touch": {
-      "Quest": "Risen from the Mire",
-      "Category": "Spells"
-    },
-    "Death Pact": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Spells"
-    },
-    "Mirror Image": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Spells"
-    },
-    "Tempest": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Spells"
-    },
-    "True Seeing": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Spells"
-    },
-    "Creeping Death": {
-      "Quest": "Ripples in Time",
-      "Category": "Spells"
-    },
-    "Frostbolt": {
-      "Quest": "Ripples in Time",
-      "Category": "Spells"
-    },
-    "Mind Control": {
-      "Quest": "Ripples in Time",
-      "Category": "Spells"
-    },
-    "Summon Storm": {
-      "Quest": "Ripples in Time",
-      "Category": "Spells"
-    },
-    "Blizzard": {
-      "Quest": "Frozen in Time",
-      "Cost": 5,
-      "Category": "Spells",
-      "Summary": "1 [Magic Attack] for each of your [Frostbite Wounds]. [Dungeon]: +2 [Magic Attack]. Take 1 [Frostbite Wound].",
-      "Types": {
-        "Elemental": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Frostbite Wound": true,
-        "Victory Point": true
-      }
-    },
-    "Cone of Cold": {
-      "Quest": "Frozen in Time",
-      "Cost": 6,
-      "Category": "Spells",
-      "Summary": "When you gain this card, roll [1d6]. On a 4+, destroy 1 of your cards. [Magic Attack] equal to your highest [Wizard]’s [Level]+1.",
-      "Types": {
-        "Arcane": true,
-        "Chaos": true,
-        "Elemental": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Magic Attack": true,
-        "Wizard": true,
-        "Dice": true
-      }
-    },
-    "Create Fire": {
-      "Quest": "Frozen in Time",
-      "Cost": 3,
-      "Category": "Spells",
-      "Summary": "[Bread] tokens used to boost [Heroes]’ [Skill] also give the [Hero] +1 [Physical Attack]. [Bread] tokens used for [Gold] produce +1 [Gold].",
-      "Types": {
-        "Elemental": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Bread": true,
-        "Gold": true,
-        "Physical Attack": true,
-        "Light": true,
-        "Magic Attack": true,
-        "Victory Point": true
-      }
-    },
-    "Inner Fire": {
-      "Quest": "Frozen in Time",
-      "Cost": 4,
-      "Category": "Spells",
-      "Summary": "Monster [Before Battle] are [After Battle] instead for you. This card has 1 [Light] if you have a [Cleric] or [Wizard], or 2 [Light] if you have 1 [Hero] with both keywords.",
-      "Types": {
-        "Arcane": true,
-        "Divine": true,
-        "Elemental": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Before Battle": true,
-        "After Battle": true,
-        "Wizard": true,
-        "Cleric": true,
-        "Light": true,
-        "Skill": true,
-        "Gold": true,
-        "Victory Point": true
-      }
-    },
-    "Acid Burst": {
-      "Quest": "What Lies Beneath",
-      "Cost": 5,
-      "Category": "Spells",
-      "Summary": "Reduce the [Defense] of the Monster you battle this turn by your highest [Wizard]’s [Level], or [Level]+1 if battling an [Aberration], [Golem], or [Humanoid].",
-      "Types": {
-        "Arcane": true,
-        "Elemental": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Defense": true,
-        "Wizard": true,
-        "Aberration": true,
-        "Golem": true,
-        "Humanoid": true,
-        "Magic Attack": true,
-        "Victory Point": true
-      }
-    },
-    "Ascendance": {
-      "Quest": "What Lies Beneath",
-      "Cost": 8,
-      "Category": "Spells",
-      "Summary": "-[Cost] equal to the total [Level] of all [Clerics] and [Wizards] you have. [Village] or [Spoils]: Level up 1 [Hero], paying [XP].",
-      "Types": {
-        "Arcane": true,
-        "Chaos": true,
-        "Divine": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Cost": true,
-        "Cleric": true,
-        "Wizard": true,
-        "Level Up": true,
-        "XP": true,
-        "Light": true
-      }
-    },
-    "Cure Disease": {
-      "Quest": "What Lies Beneath",
-      "Cost": 5,
-      "Category": "Spells",
-      "Summary": "[Village] or [Dungeon]: Heal 1 [Wound]. If it was a [Disease], also heal 1 [Wound]. You may give 1 [Cleric] +[Magic Attack] equal to the [Cleric]’s [Level].",
-      "Types": {
-        "Divine": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Village": true,
-        "Dungeon": true,
-        "Wound": true,
-        "Disease": true,
-        "Wound Card": true,
-        "Magic Attack": true,
-        "Gold": true,
-        "Cleric": true
-      }
-    },
-    "Haste": {
-      "Quest": "What Lies Beneath",
-      "Cost": 7,
-      "Category": "Spells",
-      "Summary": "After this card is discarded from your deck, give 1 [Hero] +1 [Physical Attack] and +1 [Skill]. [Dungeon]: Give your [Heroes] and [Heroes] in your Party +1 [Physical Attack] and +1 [Skill]. When discarding cards from your deck this turn, discard +1 card.",
-      "Types": {
-        "Chaos": true,
-        "Spell": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Skill": true,
-        "Hero": true,
-        "Party": true,
-        "Deck": true
-      }
+    "Keywords": {
+      "Physical Attack": true
     }
   },
-  "Weapons": {
-    "Hand Axe": {
-      "Quest": "Promos",
-      "Category": "Weapons"
+  {
+    "Name": "Edlin",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 6,
+    "Types": {
+      "Fighter": true,
+      "Human": true
     },
-    "Rapier": {
-      "Quest": "Bandits of Black Rock",
-      "Category": "Weapons"
-    },
-    "Hammer": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Weapons"
-    },
-    "Maul": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Weapons"
-    },
-    "Shortbow": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Weapons"
-    },
-    "Shortspear": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Weapons"
-    },
-    "Shortsword": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Weapons"
-    },
-    "Longbow": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Weapons"
-    },
-    "Longsword": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Weapons"
-    },
-    "Punching Dagger": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Weapons"
-    },
-    "Quarterstaff": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Weapons"
-    },
-    "Battle Axe": {
-      "Quest": "Risen from the Mire",
-      "Category": "Weapons"
-    },
-    "Boomerang": {
-      "Quest": "Risen from the Mire",
-      "Category": "Weapons"
-    },
-    "Crystal Dagger": {
-      "Quest": "Risen from the Mire",
-      "Category": "Weapons"
-    },
-    "Holy Mace": {
-      "Quest": "Risen from the Mire",
-      "Category": "Weapons"
-    },
-    "Broadsword": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Weapons"
-    },
-    "Crossbow": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Weapons"
-    },
-    "Flail": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Weapons"
-    },
-    "Two-Handed Sword": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Weapons"
-    },
-    "Cursed Mace": {
-      "Quest": "Ripples in Time",
-      "Category": "Weapons"
-    },
-    "King's Sword": {
-      "Quest": "Ripples in Time",
-      "Category": "Weapons"
-    },
-    "Longspear": {
-      "Quest": "Ripples in Time",
-      "Category": "Weapons"
-    },
-    "Magi Staff": {
-      "Quest": "Ripples in Time",
-      "Category": "Weapons"
-    },
-    "Fire Rod": {
-      "Quest": "Frozen in Time",
-      "Cost": 7,
-      "Skill": 9,
-      "Category": "Weapons",
-      "Summary": "−5 [Skill] for [Clerics] and [Wizards], or −3 [Skill] for [Rogues] and [Humans]. [Spoils]: Gain 1 [Lantern] token.",
-      "Types": {
-        "Magic": true,
-        "Elemental": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Lantern": true,
-        "Cleric": true,
-        "Wizard": true,
-        "Rogue": true,
-        "Human": true,
-        "Spoils": true,
-        "Light": true,
-        "Magic Attack": true,
-        "Gold": true,
-        "Victory Point": true
-      }
-    },
-    "Flaming Hammer": {
-      "Quest": "Frozen in Time",
-      "Cost": 6,
-      "Skill": 8,
-      "Category": "Weapons",
-      "Summary": "−2 [Skill] for [Dwarves] and [Orcs].",
-      "Types": {
-        "Blunt": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Dwarf": true,
-        "Orc": true,
-        "Skill": true,
-        "Light": true,
-        "Physical Attack": true,
-        "Gold": true
-      }
-    },
-    "Frost Bow": {
-      "Quest": "Frozen in Time",
-      "Cost": 7,
-      "Skill": 6,
-      "Category": "Weapons",
-      "Summary": "−2 [Skill] for, and +1 [Magic Attack] against, [Celestials], [Demons], [Elementals], and [Elves].",
-      "Types": {
-        "Magic": true,
-        "Bow": true,
-        "Elemental": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Physical Attack": true,
-        "Skill": true,
-        "Magic Attack": true,
-        "Celestial": true,
-        "Demon": true,
-        "Elemental": true,
-        "Elf": true,
-        "Victory Point": true
-      }
-    },
-    "Mechanical Harpoon": {
-      "Quest": "Frozen in Time",
-      "Cost": 4,
-      "Skill": 5,
-      "Category": "Weapons",
-      "Summary": "−2 [Skill] for [Halflings] and [Rogues]. [Spoils]: If this is wielded by a [Hero] with 6+ [Skill], gain 1 [Bread] token.",
-      "Types": {
-        "Bow": true,
-        "Edged": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Halfling": true,
-        "Rogue": true,
-        "Physical Attack": true,
-        "Bread": true,
-        "Victory Point": true
-      }
-    },
-    "Bastard Sword": {
-      "Quest": "What Lies Beneath",
-      "Cost": 7,
-      "Skill": 7,
-      "Category": "Weapons",
-      "Summary": "−2 [Skill] for [Humans]. [Spoils]: If this is wielded by a [Fighter], level it up, paying [XP].",
-      "Types": {
-        "Edged": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Human": true,
-        "Fighter": true,
-        "XP": true,
-        "Victory Point": true,
-        "Physical Attack": true,
-        "Gold": true,
-        "Spoils": true
-      }
-    },
-    "Battlepick": {
-      "Quest": "What Lies Beneath",
-      "Cost": 4,
-      "Skill": 4,
-      "Category": "Weapons",
-      "Summary": "After this card is discarded from your deck, you may give it to a [Hero] with 5+ [Skill] to wield. [Dungeon]: Discard 2 cards from your deck.",
-      "Types": {
-        "Edged": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Physical Attack": true,
-        "Alert": true,
-        "Gold": true,
-        "Victory Point": true,
-        "Deck": true
-      }
-    },"Cleaner’s Net": {
-      "Quest": "What Lies Beneath",
-      "Cost": 1,
-      "Skill": 1,
-      "Category": "Weapons",
-      "Summary": "You may ignore [Alert] effects from [Plants], [Swarms], and [Vermin]. They have −1 [Defense] and −1 to their [Wound] value against you. [Spoils]: You may destroy this [Weapon].",
-      "Types": {
-        "Blunt": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Alert": true,
-        "Defense": true,
-        "Spoils": true,
-        "Plant": true,
-        "Vermin": true,
-        "Swarm": true,
-        "Wound": true
-      }
-    },
-    "The Five Points": {
-      "Quest": "What Lies Beneath",
-      "Cost": 6,
-      "Skill": 8,
-      "Category": "Weapons",
-      "Summary": "−2 [Skill] for [Dwarves] and [Tritons]. After this card is discarded (from anywhere, but not from the turn ending), gain 1 [Bread]. [Village] or [Dungeon]: If unwielded, discard this card.",
-      "Types": {
-        "Edged": true,
-        "Weapon": true
-      },
-      "Keywords": {
-        "Skill": true,
-        "Dwarf": true,
-        "Triton": true,
-        "Bread": true,
-        "Village": true,
-        "Dungeon": true,
-        "Deck": true,
-        "Discard": true,
-        "Physical Attack": true,
-        "Alert": true
-      }
+    "Keywords": {
+      "Physical Attack": true
     }
   },
-  "Treasures": {
-    "Miricelle": {
-      "Quest": "Bandits of Black Rock"
+  {
+    "Name": "Gorlandor",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Fighter": true,
+      "Human": true
     },
-    "Stormland Mirror": {
-      "Quest": "A Mirror in the Dark"
-    },
-    "Sun of the Forest": {
-      "Quest": "Total Eclipse of the Sun"
-    },
-    "Elemental Elixir": {
-      "Quest": "Risen from the Mire"
-    },
-    "Elmoran": {
-      "Quest": "At the Foundations of the World"
-    },
-    "Axe of the Giants": {
-      "Quest": "Ripples in Time"
-    },
-    "Lightbringer": {
-      "Quest": "Ripples in Time"
-    },
-    "Hendrik the Brainless": {
-      "Quest": "What Lies Beneath"
-    },
-    "Ward of Healing": {
-      "Quest": "What Lies Beneath"
-    },
-    "Gemini Dagger": {
-      "Quest": "Frozen in Time"
-    },
-    "True Vision": {
-      "Quest": "Frozen in Time"
+    "Keywords": {
+      "Physical Attack": true
     }
   },
-  "Monsters": {
-    "Black Rock Bandits": {
-      "Quest": "Bandits of Black Rock",
-      "Level": 1,
-      "Types": [
-        "Humanoid"
-      ],
-      "Summary": "They attack your Marketplace cards.",
-      "Category": "Monsters"
+  {
+    "Name": "Hawkswood",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Avian",
+      "Elf"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 6,
+    "Types": {
+      "Rogue": true,
+      "Avian": true,
+      "Elf": true
     },
-    "Kobold Skirmishers": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 1,
-      "Types": [
-        "Humanoid"
-      ],
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Pylorian",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 6,
+    "Summary": "[Arcane Spell] specialist.",
+    "Types": {
+      "Wizard": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Scathian",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Halfling"
+    ],
+    "Classes": [
+      "Rogue",
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Rogue": true,
+      "Wizard": true,
+      "Halfling": true
+    },
+    "Keywords": {
+      "Magic Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Silverhelm",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Dwarf"
+    ],
+    "Classes": [
+      "Cleric",
+      "Fighter"
+    ],
+    "Cost": 6,
+    "Types": {
+      "Cleric": true,
+      "Fighter": true,
+      "Dwarf": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Stormhand",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Heroes",
+    "Races": [
+      "Dwarf"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 7,
+    "Summary": "[Edged Weapon] specialist.",
+    "Types": {
+      "Fighter": true,
+      "Dwarf": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Avania",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Celestial",
+      "Human"
+    ],
+    "Classes": [
+      "Cleric"
+    ],
+    "Cost": 6,
+    "Types": {
+      "Cleric": true,
+      "Celestial": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Brimstone",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Dwarf"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 8,
+    "Summary": "The more [Light] you have, the more powerful Brimstone gets.",
+    "Types": {
+      "Rogue": true,
+      "Dwarf": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Ehrlingal",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Halfling"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 7,
+    "Summary": "Ehrlingal provides [Light] at [II] and is a [Dagger] specialist.",
+    "Types": {
+      "Rogue": true,
+      "Halfling": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Felin",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Summary": "Felin can shapeshift her form, depending on the situation.",
+    "Types": {
+      "Cleric": true,
+      "Wizard": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Gendarme",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Dwarf"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 6,
+    "Summary": "Gendarme uses secret Dwarven magic to empower your [Weapons].",
+    "Types": {
+      "Wizard": true,
+      "Dwarf": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Sephilest",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Fighter": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Baharan",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Triton"
+    ],
+    "Classes": [
+      "Cleric"
+    ],
+    "Cost": 7,
+    "Summary": "Baharan uses strange magics, allowing you to discard cards for bonuses.",
+    "Types": {
+      "Cleric": true,
+      "Triton": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Darameric",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "Cost": 9,
+    "Types": {
+      "Cleric": true,
+      "Wizard": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Linsha",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Fighter": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Markennan",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 7,
+    "Summary": "[Blunt Weapon] specialist.",
+    "Types": {
+      "Fighter": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Nimblefingers",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Rogue": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Regalen",
+    "Quest": "Risen from the Mire",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Wizard": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Darkrend",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Summary": "Using forbidden blood magic, Darkrend inflicts [Wound] to power her attacks.",
+    "Types": {
+      "Wizard": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Grimwolf",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Undead",
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 6,
+    "Summary": "Risen to complete his mission, Grimwolf bleeds ([Wound]) to power himself.",
+    "Types": {
+      "Fighter": true,
+      "Undead": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Honormain",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Cleric"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Cleric": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Jadress",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 6,
+    "Summary": "[Bow Weapon] specialist.",
+    "Types": {
+      "Rogue": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Moonblades",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter",
+      "Rogue"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Fighter": true,
+      "Rogue": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Stormskull",
+    "Quest": "At the Foundations of the World",
+    "Category": "Heroes",
+    "Races": [
+      "Human",
+      "Orc"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Types": {
+      "Wizard": true,
+      "Human": true,
+      "Orc": true
+    },
+    "Keywords": {
+      "Magic Attack": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Aird",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Rogue"
+    ],
+    "Cost": 6,
+    "Summary": "Aird uses your opponents’ strengths against them.",
+    "Types": {
+      "Rogue": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Arcanian",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 8,
+    "Summary": "Arcanian's sorcery changes dice rolls. She also provides [Light] at [II].",
+    "Types": {
+      "Wizard": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Dunardic",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ],
+    "Cost": 6,
+    "Summary": "Once a Town Guard, Dunardic uses your [XP] as a resource.",
+    "Types": {
+      "Fighter": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Regian",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Cleric"
+    ],
+    "Cost": 7,
+    "Types": {
+      "Cleric": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    }
+  },
+  {
+    "Name": "Terakian",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Cleric",
+      "Fighter"
+    ],
+    "Cost": 8,
+    "Summary": "[Potion] specialist.",
+    "Types": {
+      "Cleric": true,
+      "Fighter": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Veris",
+    "Quest": "Ripples in Time",
+    "Category": "Heroes",
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Wizard"
+    ],
+    "Cost": 7,
+    "Summary": "Veris has the ability to make [Weapons] glow bright.",
+    "Types": {
+      "Wizard": true,
+      "Elf": true
+    },
+    "Keywords": {
+      "Magic Attack": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Graeme Crawford",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Cleric",
+      "Fighter"
+    ],
+    "Cost": 8,
+    "Summary": "This grizzled veteran may not like you, but he'll heal you. When the situation calls for it, he can imbue his attack with [Magic Attack].",
+    "Types": {
+      "Cleric": true,
+      "Fighter": true,
+      "Human": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    }
+  },
+  {
+    "Name": "Khomros",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Cost": 8,
+    "Summary": "Better at battling the [Aberrations] and [Plants] of the sewer, Khomros uses whatever [Weapons] he finds (discards from your deck).",
+    "Types": {
+      "Triton": true,
+      "Fighter": true
+    },
+    "Keywords": {
+      "Aberration": true,
+      "Plant": true,
+      "Weapon": true,
+      "Physical Attack": true,
+      "Deck": true
+    },
+    "Races": [
+      "Triton"
+    ],
+    "Classes": [
+      "Fighter"
+    ]
+  },
+  {
+    "Name": "Ophialyn the Tracker",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Cost": 9,
+    "Summary": "Ophialyn is the best hunter of [Beasts], [Fey], [Giants], [Golems], and [Humanoids]. She learns to track like a [Rogue] at [Level II].",
+    "Types": {
+      "Elf": true,
+      "Human": true,
+      "Fighter": true
+    },
+    "Keywords": {
+      "Beast": true,
+      "Fey": true,
+      "Giant": true,
+      "Golem": true,
+      "Humanoid": true,
+      "Rogue": true,
+      "Physical Attack": true
+    },
+    "Races": [
+      "Elf",
+      "Human"
+    ],
+    "Classes": [
+      "Fighter"
+    ]
+  },
+  {
+    "Name": "Runiva Highstone",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Cost": 7,
+    "Summary": "Experienced at battling [Beasts] and [Giants], Runiva will light the path if she can find (discard from your deck) the right spell.",
+    "Types": {
+      "Dwarf": true,
+      "Wizard": true
+    },
+    "Keywords": {
+      "Beast": true,
+      "Giant": true,
+      "Magic Attack": true,
+      "Light": true,
+      "Deck": true
+    },
+    "Races": [
+      "Dwarf"
+    ],
+    "Classes": [
+      "Wizard"
+    ]
+  },
+  {
+    "Name": "Uvina the Delver",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Cost": 7,
+    "Summary": "Uvina delves through (discards from) your deck, getting extra [Gear] for your next venture.",
+    "Types": {
+      "Halfling": true,
+      "Rogue": true
+    },
+    "Keywords": {
+      "Gear": true,
+      "Physical Attack": true,
+      "Gold": true,
+      "Light": true,
+      "Deck": true
+    },
+    "Races": [
+      "Halfling"
+    ],
+    "Classes": [
+      "Rogue"
+    ]
+  },
+  {
+    "Name": "Wiltran Proudmore",
+    "Quest": "What Lies Beneath",
+    "Category": "Heroes",
+    "Cost": 8,
+    "Summary": "Wiltran brews [Potions] and focuses his efforts on healing your [Wound Cards] by discarding them straight out of your deck. He learns [Wizard]ly arts at [Level II].",
+    "Types": {
+      "Halfling": true,
+      "Cleric": true
+    },
+    "Keywords": {
+      "Potion": true,
+      "Wound Card": true,
+      "Wizard": true,
+      "Magic Attack": true,
+      "Gold": true,
+      "Deck": true
+    },
+    "Races": [
+      "Halfling"
+    ],
+    "Classes": [
+      "Cleric"
+    ]
+  },
+  {
+    "Name": "Breezy",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 6,
+    "Summary": "A master of the elemental arts.",
+    "Types": {
+      "Human": true,
+      "Wizard": true
+    },
+    "Keywords": {
+      "Magic Attack": true
+    },
+    "Races": [
+      "Human"
+    ],
+    "Classes": [
+      "Wizard"
+    ]
+  },
+  {
+    "Name": "Drulfal the Primordial",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 8,
+    "Summary": "Drulfal is adept at both wielding and withstanding the elements.",
+    "Types": {
+      "Elemental": true,
+      "Dwarf": true,
+      "Cleric": true
+    },
+    "Keywords": {
+      "Physical Attack": true
+    },
+    "Races": [
+      "Elemental",
+      "Dwarf"
+    ],
+    "Classes": [
+      "Cleric"
+    ]
+  },
+  {
+    "Name": "Lefira",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 6,
+    "Summary": "Lefira gets the most out of [Bread] tokens and [Edged Weapons]. She produces [Gold] at [Level II].",
+    "Types": {
+      "Halfling": true,
+      "Fighter": true
+    },
+    "Keywords": {
+      "Bread": true,
+      "Gold": true,
+      "Physical Attack": true
+    },
+    "Races": [
+      "Halfling"
+    ],
+    "Classes": [
+      "Fighter"
+    ]
+  },
+  {
+    "Name": "Lilande",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 8,
+    "Summary": "This elven bard learns the arts of the [Wizard] at [Level II] and the [Fighter] at [Level III]. Lilande’s tale is best if you have a [Side Quest] or [Prestige Class] to relate.",
+    "Types": {
+      "Elf": true,
+      "Rogue": true
+    },
+    "Keywords": {
+      "Wizard": true,
+      "Fighter": true,
+      "Side Quest": true,
+      "Prestige Class": true,
+      "Physical Attack": true,
+      "Light": true,
+      "Gold": true
+    },
+    "Races": [
+      "Elf"
+    ],
+    "Classes": [
+      "Rogue"
+    ]
+  },
+  {
+    "Name": "Rugduhr Blackmane",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 7,
+    "Summary": "Rugduhr maximizes his [Gear] while he hunts the one he once served.",
+    "Types": {
+      "Demon": true,
+      "Dwarf": true,
+      "Rogue": true
+    },
+    "Keywords": {
+      "Gear": true,
+      "Physical Attack": true,
+      "Gold": true,
+      "Light": true
+    },
+    "Races": [
+      "Demon",
+      "Dwarf"
+    ],
+    "Classes": [
+      "Rogue"
+    ]
+  },
+  {
+    "Name": "Samly Thrackson",
+    "Quest": "Frozen in Time",
+    "Category": "Heroes",
+    "Cost": 7,
+    "Summary": "Samly destroys the impurities and inefficiencies he finds in decks.",
+    "Types": {
+      "Human": true,
+      "Orc": true,
+      "Cleric": true,
+      "Fighter": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Deck": true
+    },
+    "Races": [
+      "Human",
+      "Orc"
+    ],
+    "Classes": [
+      "Cleric",
+      "Fighter"
+    ]
+  },
+  {
+    "Name": "Necklace of Dawn",
+    "Quest": "Promos",
+    "Category": "Items"
+  },
+  {
+    "Name": "Scionic Annals",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Items"
+  },
+  {
+    "Name": "Amulet of Infravision",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Items"
+  },
+  {
+    "Name": "Gem of Healing",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Items"
+  },
+  {
+    "Name": "Tome of Knowledge",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Items"
+  },
+  {
+    "Name": "Elven Ring",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Items"
+  },
+  {
+    "Name": "Headband of Intellect",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Items"
+  },
+  {
+    "Name": "Strength Gauntlets",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Items"
+  },
+  {
+    "Name": "Wand of Light",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Items"
+  },
+  {
+    "Name": "Crystal of Scrying",
+    "Quest": "Risen from the Mire",
+    "Category": "Items"
+  },
+  {
+    "Name": "Holy Symbol",
+    "Quest": "Risen from the Mire",
+    "Category": "Items"
+  },
+  {
+    "Name": "Potion of Stamina",
+    "Quest": "Risen from the Mire",
+    "Category": "Items"
+  },
+  {
+    "Name": "Ring of Learning",
+    "Quest": "Risen from the Mire",
+    "Category": "Items"
+  },
+  {
+    "Name": "Damilu Huskie",
+    "Quest": "At the Foundations of the World",
+    "Category": "Items"
+  },
+  {
+    "Name": "Daramere’s Cloak",
+    "Quest": "At the Foundations of the World",
+    "Category": "Items"
+  },
+  {
+    "Name": "Potion of Light",
+    "Quest": "At the Foundations of the World",
+    "Category": "Items"
+  },
+  {
+    "Name": "Ring of Proficiency",
+    "Quest": "At the Foundations of the World",
+    "Category": "Items"
+  },
+  {
+    "Name": "Amulet of Power",
+    "Quest": "Ripples in Time",
+    "Category": "Items"
+  },
+  {
+    "Name": "Lightstone Gem",
+    "Quest": "Ripples in Time",
+    "Category": "Items"
+  },
+  {
+    "Name": "Nature’s Amulet",
+    "Quest": "Ripples in Time",
+    "Category": "Items"
+  },
+  {
+    "Name": "Ring of Spell Storing",
+    "Quest": "Ripples in Time",
+    "Category": "Items"
+  },
+  {
+    "Name": "Bracers of Cleansing",
+    "Quest": "What Lies Beneath",
+    "Category": "Items",
+    "Cost": 5,
+    "Summary": "[Village] or [Dungeon]: Discard 3 cards from your deck. Heal 1 [Wound Card] discarded or gain 1 [Light].",
+    "Types": {
+      "Magic": true,
+      "Item": true
+    },
+    "Keywords": {
+      "Village": true,
+      "Dungeon": true,
+      "Gold": true,
+      "Magic Attack": true,
+      "Skill": true,
+      "Light": true,
+      "Wound Card": true,
+      "Deck": true
+    }
+  },
+  {
+    "Name": "Neverending Rope Spool",
+    "Quest": "What Lies Beneath",
+    "Category": "Items",
+    "Cost": 4,
+    "Summary": "After this card is discarded from your deck, draw it if you have a [Rogue]. [Village] or [Dungeon]: Give 1 [Hero] the [Rogue] keyword and +1 to the values they have printed: [Physical Attack], [Magic Attack], [Skill], [Light], [Level], and [Gold]. Discard 1 card from your deck for each [Rogue] you now have.",
+    "Types": {
+      "Magic": true,
+      "Item": true
+    },
+    "Keywords": {
+      "Village": true,
+      "Dungeon": true,
+      "Rogue": true,
+      "Physical Attack": true,
+      "Magic Attack": true,
+      "Gold": true,
+      "Skill": true,
+      "Light": true,
+      "Level": true,
+      "Victory Point": true,
+      "Deck": true
+    }
+  },
+  {
+    "Name": "Studded Leather Shirt",
+    "Quest": "What Lies Beneath",
+    "Category": "Items",
+    "Cost": 3,
+    "Summary": "+1 [Physical Attack] if this [Hero] is [Human] or wields a [Weapon]. You may resolve the [After Battle] from 1 Studded Leather Shirt per turn, or 2 per turn if this is a [Fighter]. [After Battle]: Take −1 [Wound] from Monsters this turn.",
+    "Types": {
+      "Item": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Skill": true,
+      "Gold": true,
+      "After Battle": true,
+      "Wound": true,
+      "Fighter": true,
+      "Human": true,
+      "Weapon": true
+    },
+    "Races": [
+      "Race"
+    ],
+    "Classes": [
+      "Class"
+    ]
+  },
+  {
+    "Name": "Wand of Illumination",
+    "Quest": "What Lies Beneath",
+    "Category": "Items",
+    "Cost": 7,
+    "Summary": "[Spoils]: If you have a [Cleric], [Wizard], or [Halfling], gain 1 [Lantern] token.",
+    "Types": {
+      "Magic": true,
+      "Item": true
+    },
+    "Keywords": {
+      "Cleric": true,
+      "Wizard": true,
+      "Halfling": true,
+      "Lantern": true,
+      "Light": true,
+      "Victory Point": true,
+      "Magic Attack": true,
+      "Gold": true,
+      "Spoils": true
+    }
+  },
+  {
+    "Name": "Eternal Flame",
+    "Quest": "Frozen in Time",
+    "Category": "Items",
+    "Cost": 8,
+    "Summary": "You may only give this card’s +[Magic Attack] and +[Skill] boosts to a [Dwarf] or [Cleric].",
+    "Types": {
+      "Elemental": true,
+      "Magic": true,
+      "Item": true
+    },
+    "Keywords": {
+      "Magic Attack": true,
+      "Skill": true,
+      "Light": true,
+      "Gold": true,
+      "Dwarf": true,
+      "Cleric": true
+    }
+  },
+  {
+    "Name": "Ice Climbing Gear",
+    "Quest": "Frozen in Time",
+    "Category": "Items",
+    "Cost": 4,
+    "Summary": "This card’s [Skill] and [Light] values each have +1 when given to a [Halfling] or [Rogue]. Ignore [Alert] effects from Dungeon Rooms.",
+    "Types": {
+      "Item": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Light": true,
       "Alert": true,
-      "Category": "Monsters"
-    },
-    "Goblin Grunts": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 1,
-      "Types": [
-        "Humanoid"
-      ],
-      "Category": "Monsters"
-    },
-    "Hobgoblin Brutes": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 2,
-      "Types": [
-        "Humanoid"
-      ],
-      "Summary": "They attack Heroes and their equipment.",
-      "Category": "Monsters"
-    },
-    "Spider Terrors": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 2,
-      "Types": [
-        "Giant",
-        "Vermin"
-      ],
-      "Summary": "They wound heavily ([Wound] and [Wound Card]) and are drawn to equipment.",
-      "Category": "Monsters"
-    },
-    "Ancient Adventurers": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 3,
-      "Types": [
-        "Undead"
-      ],
-      "Category": "Monsters"
-    },
-    "Goblin King's Guard": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 3,
-      "Types": [
-        "Humanoid"
-      ],
-      "Category": "Monsters"
-    },
-    "Twisted Creatures": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 1,
-      "Types": [
-        "Beast"
-      ],
-      "Category": "Monsters"
-    },
-    "Woodland Sprites": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 1,
-      "Types": [
-        "Fey"
-      ],
-      "Summary": "They deal Festering Wounds ([Wound Card]).",
-      "Category": "Monsters"
-    },
-    "Corrupted Elves": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 2,
-      "Types": [
-        "Humanoid"
-      ],
-      "Summary": "Destroy your [XP] or suffer their wrath.",
-      "Category": "Monsters"
-    },
-    "Foundational Keepers": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 2,
-      "Types": [
-        "Elemental",
-        "Giant",
-        "Humanoid"
-      ],
-      "Summary": "These Ogres attack as soon as they refill the Dungeon (but not at game setup).",
-      "Category": "Monsters"
-    },
-    "Corrupted Centaurs": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 3,
-      "Types": [
-        "Beast",
-        "Humanoid"
-      ],
-      "Summary": "They are each susceptible to a particular Class, but resilient against others.",
-      "Category": "Monsters"
-    },
-    "Treefolk": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 3,
-      "Types": [
-        "Giant",
-        "Plant"
-      ],
-      "Summary": "They are worth much more if you defeat them convincingly.",
-      "Category": "Monsters"
-    },
-    "Ensnaring Vines": {
-      "Quest": "Risen from the Mire",
-      "Level": 1,
-      "Types": [
-        "Plant"
-      ],
-      "Alert": true,
-      "Category": "Monsters"
-    },
-    "Bog Zombies": {
-      "Quest": "Risen from the Mire",
-      "Level": 1,
-      "Types": [
-        "Undead"
-      ],
-      "Summary": "They deal Festering Wounds ([Wound Card]).",
-      "Category": "Monsters"
-    },
-    "Chaos Lizards": {
-      "Quest": "Risen from the Mire",
-      "Level": 2,
-      "Types": [
-        "Humanoid"
-      ],
-      "Summary": "They discard your cards based on the outcome of dice rolls.",
-      "Category": "Monsters"
-    },
-    "Moor Skeletons": {
-      "Quest": "Risen from the Mire",
-      "Level": 2,
-      "Types": [
-        "Undead"
-      ],
-      "Summary": "They deal [Wound Card] and are resistant to [Physical Attack] and [Edged Weapons].",
-      "Category": "Monsters"
-    },
-    "Marsh Trolls": {
-      "Quest": "Risen from the Mire",
-      "Level": 3,
-      "Types": [
-        "Giant"
-      ],
-      "Summary": "They have immunities to different cards.",
-      "Category": "Monsters"
-    },
-    "Swamp Spirits": {
-      "Quest": "Risen from the Mire",
-      "Level": 3,
-      "Types": [
-        "Undead"
-      ],
-      "Summary": "They hunger for (attack) your [Heroes].",
-      "Category": "Monsters"
-    },
-    "Air Servitors": {
-      "Quest": "At the Foundations of the World",
-      "Level": 1,
-      "Types": [
-        "Elemental"
-      ],
-      "Summary": "They tend to be vulnerable to [Magic Attack]",
-      "Category": "Monsters"
-    },
-    "Water Servitors": {
-      "Quest": "At the Foundations of the World",
-      "Level": 1,
-      "Types": [
-        "Elemental"
-      ],
-      "Summary": "They move throughout the dungeon making it unpredictable.",
-      "Alert": true,
-      "Category": "Monsters"
-    },
-    "Earth Servitors": {
-      "Quest": "At the Foundations of the World",
-      "Level": 2,
-      "Types": [
-        "Elemental"
-      ],
-      "Summary": "They are strong against [Physical Attack].",
-      "Category": "Monsters"
-    },
-    "Fire Servitors": {
-      "Quest": "At the Foundations of the World",
-      "Level": 2,
-      "Types": [
-        "Elemental"
-      ],
-      "Summary": "They attack your [Skill] and Weapons.",
-      "Category": "Monsters"
-    },
-    "Divine Founders": {
-      "Quest": "At the Foundations of the World",
-      "Level": 3,
-      "Types": [
-        "Elemental",
-        "Celestial"
-      ],
-      "Summary": "They judge (attack) your Heroes harshly.",
-      "Category": "Monsters"
-    },
-    "Abyssal Founders": {
-      "Quest": "At the Foundations of the World",
-      "Level": 3,
-      "Types": [
-        "Elemental",
-        "Demon"
-      ],
-      "Summary": "The chaotic nature of their dice rolls make them unpredicatble. [sic]",
-      "Category": "Monsters"
-    },
-    "Doomknights": {
-      "Quest": "Ripples in Time",
-      "Level": 1,
-      "Types": [
-        "Undead"
-      ],
-      "Summary": "They attack Heroes who try to move through their room.",
-      "Category": "Monsters"
-    },
-    "Gnoll Raiders": {
-      "Quest": "Ripples in Time",
-      "Level": 1,
-      "Types": [
-        "Humanoid"
-      ],
-      "Summary": "They destroy your Weapons and Gear.",
-      "Category": "Monsters"
-    },
-    "Minions of Chaos": {
-      "Quest": "Ripples in Time",
-      "Level": 2,
-      "Types": [
-        "Demon"
-      ],
-      "Summary": "They destroy your Heroes based on the outcome of dice rolls.",
-      "Category": "Monsters"
-    },
-    "Torments": {
-      "Quest": "Ripples in Time",
-      "Level": 2,
-      "Types": [
-        "Elemental"
-      ],
-      "Summary": "They are strong against [Magic Attack].",
-      "Category": "Monsters"
-    },
-    "Ancient Wyrms": {
-      "Quest": "Ripples in Time",
-      "Level": 3,
-      "Types": [
-        "Dragon"
-      ],
-      "Summary": "They like to snack on (attack) your Heroes.",
-      "Category": "Monsters"
-    },
-    "Ancient Protectors": {
-      "Quest": "Ripples in Time",
-      "Level": 3,
-      "Types": [
-        "Golem"
-      ],
-      "Summary": "They are immune to Heroes with low [Skill].",
-      "Category": "Monsters"
-    },
-    "Arctic Animals": {
-      "Quest": "Frozen in Time",
-      "Level": 1,
-      "Category": "Monsters",
-      "Summary": "Arctic Animals are well-adapted to stalking their chilled prey, attacking as you enter or leave the room.",
-      "Types": {
-        "Beast": true,
-        "Arctic Animal": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Alert": true
-      },
-      "Races": [
-        "Beast"
-      ]
-    },
-    "Abyssal Servants": {
-      "Quest": "Frozen in Time",
-      "Level": 1,
-      "Category": "Monsters",
-      "Summary": "Abyssal Servants chill your bones, reducing your [HP].",
-      "Types": {
-        "Elemental": true,
-        "Demon": true,
-        "Abyssal Servant": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "HP": true
-      },
-      "Races": [
-        "Elemental",
-        "Demon"
-      ]
-    },
-    "Bloodfrost Clan": {
-      "Quest": "Frozen in Time",
-      "Level": 2,
-      "Category": "Monsters",
-      "Summary": "Unimpeded by the cold, the Bloodfrost Clan strikes hard and fast, both before and after battle.",
-      "Types": {
-        "Elemental": true,
-        "Humanoid": true,
-        "Bloodfrost Clan": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Frostbite Wound": true
-      },
-      "Races": [
-        "Elemental",
-        "Humanoid"
-      ]
-    },
-    "Tundra Wolf Pack": {
-      "Quest": "Frozen in Time",
-      "Level": 2,
-      "Category": "Monsters",
-      "Summary": "A Tundra Wolf Pack’s numbers and attacks are as fast as they are unpredictable, striking before and after battle. (This [Swarm] gains +[1d6] [Defense].)",
-      "Types": {
-        "Beast": true,
-        "Swarm": true,
-        "Tundra Wolf Pack": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Dice": true,
-        "Defense": true,
-        "Frostbite Wound": true,
-        "Swarm": true
-      },
-      "Races": [
-        "Beast"
-      ],
-      "Classes": [
-        "Swarm"
-      ]
-    },
-    "Frozen Natives": {
-      "Quest": "Frozen in Time",
-      "Level": 3,
-      "Category": "Monsters",
-      "Summary": "An ancient race of half-dog, half-humans, the Adlet attacks are devastatingly unpredictable.",
-      "Types": {
-        "Humanoid": true,
-        "Beast": true,
-        "Frozen Native": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Frostbite Wound": true,
-        "Treasure": true
-      },
-      "Races": [
-        "Humanoid",
-        "Beast"
-      ]
-    },
-    "Ice Behemoths": {
-      "Quest": "Frozen in Time",
-      "Level": 3,
-      "Category": "Monsters",
-      "Summary": "The arctic wastes abount with high [Defense] behemoths who ask no questions.",
-      "Types": {
-        "Elemental": true,
-        "Giant": true,
-        "Humanoid": true,
-        "Ice Behemoth": true,
-        "Monsters": true
-      },
-      "Keywords": {
-        "Frostbite Wound": true,
-        "Treasure": true,
-        "Defense": true
-      },
-      "Races": [
-        "Elemental",
-        "Giant",
-        "Humanoid"
-      ]
-    },
-    "Drain Dwellers": {
-      "Quest": "What Lies Beneath",
-      "Level": 1,
-      "Category": "Monsters",
-      "Summary": "They attack you when you try to move out of their room.",
-      "Types": {
-        "Beast": true,
-        "Drain Dweller": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Alert": true
-      },
-      "Races": [
-        "Beast"
-      ]
-    },
-    "Plague Rats": {
-      "Quest": "What Lies Beneath",
-      "Level": 1,
-      "Category": "Monsters",
-      "Summary": "This swarm can number in dozens or hundreds, but it often brings disease. (This [Swarm] gains +[1d6] [Defense].)",
-      "Types": {
-        "Vermin": true,
-        "Swarm": true,
-        "Plague Rat": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Dice": true,
-        "Defense": true,
-        "Wound Card": true
-      },
-      "Races": [
-        "Vermin"
-      ],
-      "Classes": [
-        "Swarm"
-      ]
-    },
-    "Ghoulish Scavengers": {
-      "Quest": "What Lies Beneath",
-      "Level": 2,
-      "Category": "Monsters",
-      "Summary": "They use your diseases against you.",
-      "Types": {
-        "Undead": true,
-        "Ghoulish Scavenger": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Wound Card": true
-      },
-      "Races": [
-        "Undead"
-      ]
-    },
-    "Sewer Trogs": {
-      "Quest": "What Lies Beneath",
-      "Level": 2,
-      "Category": "Monsters",
-      "Summary": "The Sewer Trogs are heavy wounders.",
-      "Types": {
-        "Humanoid": true,
-        "Sewer Trog": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Wound": true
-      },
-      "Races": [
-        "Humanoid"
-      ]
-    },
-    "Shapeless Spawns": {
-      "Quest": "What Lies Beneath",
-      "Level": 3,
-      "Category": "Monsters",
-      "Summary": "These [Aberrations] of the deep grow stronger with your [Wound Cards].",
-      "Types": {
-        "Aberration": true,
-        "Shapeless Spawn": true,
-        "Monster": true
-      },
-      "Keywords": {
-        "Wound Card": true,
-        "Treasure": true
-      },
-      "Races": [
-        "Aberration"
-      ]
-    },
-    "Waste Wyrms": {
-      "Quest": "What Lies Beneath",
-      "Level": 3,
-      "Category": "Monsters",
-      "Summary": "Heavy wounders that deal both [Wound Cards] and [Wounds].",
-      "Types": {
-        "Waste Wyrm": true,
-        "Monster": true,
-        "Giant": true,
-        "Vermin": true
-      },
-      "Keywords": {
-        "Wound": true,
-        "Wound Card": true,
-        "Treasure": true
-      },
-      "Races": [
-        "Giant",
-        "Vermin"
-      ]
+      "Halfling": true,
+      "Rogue": true,
+      "Gold": true,
+      "Victory Point": true
     }
   },
-  "Guardians": {
-    "Smorga the Queen": {
-      "Quest": "A Mirror in the Dark",
-      "Category": "Guardians"
+  {
+    "Name": "Snow Trekking Tools",
+    "Quest": "Frozen in Time",
+    "Category": "Items",
+    "Cost": 4,
+    "Summary": "[Frostbite Wounds] you take are [Wounds] instead. [Dungeon]: Discard this card and another card to draw 1 card.",
+    "Types": {
+      "Item": true
     },
-    "Guardian of the Sun": {
-      "Quest": "Total Eclipse of the Sun",
-      "Category": "Guardians"
-    },
-    "Baalok, the Flesh Weaver": {
-      "Quest": "Risen from the Mire",
-      "Category": "Guardians"
-    },
-    "Miricelle, Scion Defender": {
-      "Quest": "At the Foundations of the World",
-      "Category": "Guardians"
-    },
-    "Death Sentinel": {
-      "Quest": "Ripples in Time",
-      "Category": "Guardians"
-    },
-    "Hive Mind": {
-      "Quest": "What Lies Beneath",
-      "Category": "Guardians"
-    },
-    "Orgrum Coldthunder": {
-      "Quest": "Frozen in Time",
-      "Category": "Guardians"
+    "Keywords": {
+      "Frostbite Wound": true,
+      "Wound": true,
+      "Light": true,
+      "Victory Point": true,
+      "Skill": true,
+      "Gold": true
     }
   },
-  "Dungeon Rooms": {
-    "Abandoned Gate": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 1,
-      "Light": 0,
-      "Category": "Dungeon Rooms"
+  {
+    "Name": "Tent",
+    "Quest": "Frozen in Time",
+    "Category": "Items",
+    "Cost": 5,
+    "Summary": "You may ignore [After Battle] abilities from Dungeon Rooms. [Spoils]: You have +1 [HP]. You may only use [Spoils] from 1 Tent per turn.",
+    "Types": {
+      "Item": true
     },
-    "Mine": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Health": 1
-      },
-      "Reward": {
-        "Iron Rations": 1
-      },
-      "Category": "Dungeon Rooms"
+    "Keywords": {
+      "After Battle": true,
+      "Spoils": true,
+      "HP": true,
+      "Light": true,
+      "Victory Point": true,
+      "Skill": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Form of the Juggernaut",
+    "Quest": "Promos",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Dark Fire Torch",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Fireball",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Future Vision",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Magic Missile",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Moonlight",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Arcane Touch",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Consecration",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Lightning Bolt",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Nature’s Fury",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Arcane Aura",
+    "Quest": "Risen from the Mire",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Charm Monster",
+    "Quest": "Risen from the Mire",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Enchant Weapons",
+    "Quest": "Risen from the Mire",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Vampiric Touch",
+    "Quest": "Risen from the Mire",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Death Pact",
+    "Quest": "At the Foundations of the World",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Mirror Image",
+    "Quest": "At the Foundations of the World",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Tempest",
+    "Quest": "At the Foundations of the World",
+    "Category": "Spells"
+  },
+  {
+    "Name": "True Seeing",
+    "Quest": "At the Foundations of the World",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Creeping Death",
+    "Quest": "Ripples in Time",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Frostbolt",
+    "Quest": "Ripples in Time",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Mind Control",
+    "Quest": "Ripples in Time",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Summon Storm",
+    "Quest": "Ripples in Time",
+    "Category": "Spells"
+  },
+  {
+    "Name": "Blizzard",
+    "Quest": "Frozen in Time",
+    "Category": "Spells",
+    "Cost": 5,
+    "Summary": "1 [Magic Attack] for each of your [Frostbite Wounds]. [Dungeon]: +2 [Magic Attack]. Take 1 [Frostbite Wound].",
+    "Types": {
+      "Elemental": true,
+      "Spell": true
     },
-    "Crypt": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 2,
-      "Light": 1,
+    "Keywords": {
+      "Magic Attack": true,
+      "Frostbite Wound": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Cone of Cold",
+    "Quest": "Frozen in Time",
+    "Category": "Spells",
+    "Cost": 6,
+    "Summary": "When you gain this card, roll [1d6]. On a 4+, destroy 1 of your cards. [Magic Attack] equal to your highest [Wizard]’s [Level]+1.",
+    "Types": {
+      "Arcane": true,
+      "Chaos": true,
+      "Elemental": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Magic Attack": true,
+      "Wizard": true,
+      "Dice": true
+    }
+  },
+  {
+    "Name": "Create Fire",
+    "Quest": "Frozen in Time",
+    "Category": "Spells",
+    "Cost": 3,
+    "Summary": "[Bread] tokens used to boost [Heroes]’ [Skill] also give the [Hero] +1 [Physical Attack]. [Bread] tokens used for [Gold] produce +1 [Gold].",
+    "Types": {
+      "Elemental": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Bread": true,
+      "Gold": true,
+      "Physical Attack": true,
+      "Light": true,
+      "Magic Attack": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Inner Fire",
+    "Quest": "Frozen in Time",
+    "Category": "Spells",
+    "Cost": 4,
+    "Summary": "Monster [Before Battle] are [After Battle] instead for you. This card has 1 [Light] if you have a [Cleric] or [Wizard], or 2 [Light] if you have 1 [Hero] with both keywords.",
+    "Types": {
+      "Arcane": true,
+      "Divine": true,
+      "Elemental": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Before Battle": true,
+      "After Battle": true,
+      "Wizard": true,
+      "Cleric": true,
+      "Light": true,
+      "Skill": true,
+      "Gold": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Acid Burst",
+    "Quest": "What Lies Beneath",
+    "Category": "Spells",
+    "Cost": 5,
+    "Summary": "Reduce the [Defense] of the Monster you battle this turn by your highest [Wizard]’s [Level], or [Level]+1 if battling an [Aberration], [Golem], or [Humanoid].",
+    "Types": {
+      "Arcane": true,
+      "Elemental": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Defense": true,
+      "Wizard": true,
+      "Aberration": true,
+      "Golem": true,
+      "Humanoid": true,
+      "Magic Attack": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Ascendance",
+    "Quest": "What Lies Beneath",
+    "Category": "Spells",
+    "Cost": 8,
+    "Summary": "-[Cost] equal to the total [Level] of all [Clerics] and [Wizards] you have. [Village] or [Spoils]: Level up 1 [Hero], paying [XP].",
+    "Types": {
+      "Arcane": true,
+      "Chaos": true,
+      "Divine": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Cost": true,
+      "Cleric": true,
+      "Wizard": true,
+      "Level Up": true,
+      "XP": true,
+      "Light": true
+    }
+  },
+  {
+    "Name": "Cure Disease",
+    "Quest": "What Lies Beneath",
+    "Category": "Spells",
+    "Cost": 5,
+    "Summary": "[Village] or [Dungeon]: Heal 1 [Wound]. If it was a [Disease], also heal 1 [Wound]. You may give 1 [Cleric] +[Magic Attack] equal to the [Cleric]’s [Level].",
+    "Types": {
+      "Divine": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Village": true,
+      "Dungeon": true,
+      "Wound": true,
+      "Disease": true,
+      "Wound Card": true,
+      "Magic Attack": true,
+      "Gold": true,
+      "Cleric": true
+    }
+  },
+  {
+    "Name": "Haste",
+    "Quest": "What Lies Beneath",
+    "Category": "Spells",
+    "Cost": 7,
+    "Summary": "After this card is discarded from your deck, give 1 [Hero] +1 [Physical Attack] and +1 [Skill]. [Dungeon]: Give your [Heroes] and [Heroes] in your Party +1 [Physical Attack] and +1 [Skill]. When discarding cards from your deck this turn, discard +1 card.",
+    "Types": {
+      "Chaos": true,
+      "Spell": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Skill": true,
+      "Hero": true,
+      "Party": true,
+      "Deck": true
+    }
+  },
+  {
+    "Name": "Hand Axe",
+    "Quest": "Promos",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Rapier",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Hammer",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Maul",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Shortbow",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Shortspear",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Shortsword",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Longbow",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Longsword",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Punching Dagger",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Quarterstaff",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Battle Axe",
+    "Quest": "Risen from the Mire",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Boomerang",
+    "Quest": "Risen from the Mire",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Crystal Dagger",
+    "Quest": "Risen from the Mire",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Holy Mace",
+    "Quest": "Risen from the Mire",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Broadsword",
+    "Quest": "At the Foundations of the World",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Crossbow",
+    "Quest": "At the Foundations of the World",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Flail",
+    "Quest": "At the Foundations of the World",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Two-Handed Sword",
+    "Quest": "At the Foundations of the World",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Cursed Mace",
+    "Quest": "Ripples in Time",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "King’s Sword",
+    "Quest": "Ripples in Time",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Longspear",
+    "Quest": "Ripples in Time",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Magi Staff",
+    "Quest": "Ripples in Time",
+    "Category": "Weapons"
+  },
+  {
+    "Name": "Fire Rod",
+    "Quest": "Frozen in Time",
+    "Category": "Weapons",
+    "Cost": 7,
+    "Skill": 9,
+    "Summary": "−5 [Skill] for [Clerics] and [Wizards], or −3 [Skill] for [Rogues] and [Humans]. [Spoils]: Gain 1 [Lantern] token.",
+    "Types": {
+      "Magic": true,
+      "Elemental": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Lantern": true,
+      "Cleric": true,
+      "Wizard": true,
+      "Rogue": true,
+      "Human": true,
+      "Spoils": true,
+      "Light": true,
+      "Magic Attack": true,
+      "Gold": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Flaming Hammer",
+    "Quest": "Frozen in Time",
+    "Category": "Weapons",
+    "Cost": 6,
+    "Skill": 8,
+    "Summary": "−2 [Skill] for [Dwarves] and [Orcs].",
+    "Types": {
+      "Blunt": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Dwarf": true,
+      "Orc": true,
+      "Skill": true,
+      "Light": true,
+      "Physical Attack": true,
+      "Gold": true
+    }
+  },
+  {
+    "Name": "Frost Bow",
+    "Quest": "Frozen in Time",
+    "Category": "Weapons",
+    "Cost": 7,
+    "Skill": 6,
+    "Summary": "−2 [Skill] for, and +1 [Magic Attack] against, [Celestials], [Demons], [Elementals], and [Elves].",
+    "Types": {
+      "Magic": true,
+      "Bow": true,
+      "Elemental": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Physical Attack": true,
+      "Skill": true,
+      "Magic Attack": true,
+      "Celestial": true,
+      "Demon": true,
+      "Elemental": true,
+      "Elf": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Mechanical Harpoon",
+    "Quest": "Frozen in Time",
+    "Category": "Weapons",
+    "Cost": 4,
+    "Skill": 5,
+    "Summary": "−2 [Skill] for [Halflings] and [Rogues]. [Spoils]: If this is wielded by a [Hero] with 6+ [Skill], gain 1 [Bread] token.",
+    "Types": {
+      "Bow": true,
+      "Edged": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Halfling": true,
+      "Rogue": true,
+      "Physical Attack": true,
+      "Bread": true,
+      "Victory Point": true
+    }
+  },
+  {
+    "Name": "Bastard Sword",
+    "Quest": "What Lies Beneath",
+    "Category": "Weapons",
+    "Cost": 7,
+    "Skill": 7,
+    "Summary": "−2 [Skill] for [Humans]. [Spoils]: If this is wielded by a [Fighter], level it up, paying [XP].",
+    "Types": {
+      "Edged": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Human": true,
+      "Fighter": true,
+      "XP": true,
+      "Victory Point": true,
+      "Physical Attack": true,
+      "Gold": true,
+      "Spoils": true
+    }
+  },
+  {
+    "Name": "Battlepick",
+    "Quest": "What Lies Beneath",
+    "Category": "Weapons",
+    "Cost": 4,
+    "Skill": 4,
+    "Summary": "After this card is discarded from your deck, you may give it to a [Hero] with 5+ [Skill] to wield. [Dungeon]: Discard 2 cards from your deck.",
+    "Types": {
+      "Edged": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Physical Attack": true,
       "Alert": true,
-      "Entry": {
+      "Gold": true,
+      "Victory Point": true,
+      "Deck": true
+    }
+  },
+  {
+    "Name": "Cleaner’s Net",
+    "Quest": "What Lies Beneath",
+    "Category": "Weapons",
+    "Cost": 1,
+    "Skill": 1,
+    "Summary": "You may ignore [Alert] effects from [Plants], [Swarms], and [Vermin]. They have −1 [Defense] and −1 to their [Wound] value against you. [Spoils]: You may destroy this [Weapon].",
+    "Types": {
+      "Blunt": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Alert": true,
+      "Defense": true,
+      "Spoils": true,
+      "Plant": true,
+      "Vermin": true,
+      "Swarm": true,
+      "Wound": true
+    }
+  },
+  {
+    "Name": "The Five Points",
+    "Quest": "What Lies Beneath",
+    "Category": "Weapons",
+    "Cost": 6,
+    "Skill": 8,
+    "Summary": "−2 [Skill] for [Dwarves] and [Tritons]. After this card is discarded (from anywhere, but not from the turn ending), gain 1 [Bread]. [Village] or [Dungeon]: If unwielded, discard this card.",
+    "Types": {
+      "Edged": true,
+      "Weapon": true
+    },
+    "Keywords": {
+      "Skill": true,
+      "Dwarf": true,
+      "Triton": true,
+      "Bread": true,
+      "Village": true,
+      "Dungeon": true,
+      "Deck": true,
+      "Discard": true,
+      "Physical Attack": true,
+      "Alert": true
+    }
+  },
+  {
+    "Name": "Miricelle",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Stormland Mirror",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Sun of the Forest",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Elemental Elixir",
+    "Quest": "Risen from the Mire",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Elmoran",
+    "Quest": "At the Foundations of the World",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Axe of the Giants",
+    "Quest": "Ripples in Time",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Lightbringer",
+    "Quest": "Ripples in Time",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Hendrik the Brainless",
+    "Quest": "What Lies Beneath",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Ward of Healing",
+    "Quest": "What Lies Beneath",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Gemini Dagger",
+    "Quest": "Frozen in Time",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "True Vision",
+    "Quest": "Frozen in Time",
+    "Category": "Treasures"
+  },
+  {
+    "Name": "Black Rock Bandits",
+    "Quest": "Bandits of Black Rock",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Humanoid"
+    ],
+    "Summary": "They attack your Marketplace cards."
+  },
+  {
+    "Name": "Kobold Skirmishers",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Humanoid"
+    ],
+    "Alert": true
+  },
+  {
+    "Name": "Goblin Grunts",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Humanoid"
+    ]
+  },
+  {
+    "Name": "Hobgoblin Brutes",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Humanoid"
+    ],
+    "Summary": "They attack Heroes and their equipment."
+  },
+  {
+    "Name": "Spider Terrors",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Giant",
+      "Vermin"
+    ],
+    "Summary": "They wound heavily ([Wound] and [Wound Card]) and are drawn to equipment."
+  },
+  {
+    "Name": "Ancient Adventurers",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Undead"
+    ]
+  },
+  {
+    "Name": "Goblin King’s Guard",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Humanoid"
+    ]
+  },
+  {
+    "Name": "Twisted Creatures",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Beast"
+    ]
+  },
+  {
+    "Name": "Woodland Sprites",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Fey"
+    ],
+    "Summary": "They deal Festering Wounds ([Wound Card])."
+  },
+  {
+    "Name": "Corrupted Elves",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Humanoid"
+    ],
+    "Summary": "Destroy your [XP] or suffer their wrath."
+  },
+  {
+    "Name": "Foundational Keepers",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Elemental",
+      "Giant",
+      "Humanoid"
+    ],
+    "Summary": "These Ogres attack as soon as they refill the Dungeon (but not at game setup)."
+  },
+  {
+    "Name": "Corrupted Centaurs",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Beast",
+      "Humanoid"
+    ],
+    "Summary": "They are each susceptible to a particular Class, but resilient against others."
+  },
+  {
+    "Name": "Treefolk",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Giant",
+      "Plant"
+    ],
+    "Summary": "They are worth much more if you defeat them convincingly."
+  },
+  {
+    "Name": "Ensnaring Vines",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Plant"
+    ],
+    "Alert": true
+  },
+  {
+    "Name": "Bog Zombies",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Undead"
+    ],
+    "Summary": "They deal Festering Wounds ([Wound Card])."
+  },
+  {
+    "Name": "Chaos Lizards",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Humanoid"
+    ],
+    "Summary": "They discard your cards based on the outcome of dice rolls."
+  },
+  {
+    "Name": "Moor Skeletons",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Undead"
+    ],
+    "Summary": "They deal [Wound Card] and are resistant to [Physical Attack] and [Edged Weapons]."
+  },
+  {
+    "Name": "Marsh Trolls",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Giant"
+    ],
+    "Summary": "They have immunities to different cards."
+  },
+  {
+    "Name": "Swamp Spirits",
+    "Quest": "Risen from the Mire",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Undead"
+    ],
+    "Summary": "They hunger for (attack) your [Heroes]."
+  },
+  {
+    "Name": "Air Servitors",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Elemental"
+    ],
+    "Summary": "They tend to be vulnerable to [Magic Attack]"
+  },
+  {
+    "Name": "Water Servitors",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Elemental"
+    ],
+    "Summary": "They move throughout the dungeon making it unpredictable.",
+    "Alert": true
+  },
+  {
+    "Name": "Earth Servitors",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Elemental"
+    ],
+    "Summary": "They are strong against [Physical Attack]."
+  },
+  {
+    "Name": "Fire Servitors",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Elemental"
+    ],
+    "Summary": "They attack your [Skill] and Weapons."
+  },
+  {
+    "Name": "Divine Founders",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Elemental",
+      "Celestial"
+    ],
+    "Summary": "They judge (attack) your Heroes harshly."
+  },
+  {
+    "Name": "Abyssal Founders",
+    "Quest": "At the Foundations of the World",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Elemental",
+      "Demon"
+    ],
+    "Summary": "The chaotic nature of their dice rolls make them unpredicatble. [sic]"
+  },
+  {
+    "Name": "Doomknights",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Undead"
+    ],
+    "Summary": "They attack Heroes who try to move through their room."
+  },
+  {
+    "Name": "Gnoll Raiders",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 1,
+    "Types": [
+      "Humanoid"
+    ],
+    "Summary": "They destroy your Weapons and Gear."
+  },
+  {
+    "Name": "Minions of Chaos",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Demon"
+    ],
+    "Summary": "They destroy your Heroes based on the outcome of dice rolls."
+  },
+  {
+    "Name": "Torments",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 2,
+    "Types": [
+      "Elemental"
+    ],
+    "Summary": "They are strong against [Magic Attack]."
+  },
+  {
+    "Name": "Ancient Wyrms",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Dragon"
+    ],
+    "Summary": "They like to snack on (attack) your Heroes."
+  },
+  {
+    "Name": "Ancient Protectors",
+    "Quest": "Ripples in Time",
+    "Category": "Monsters",
+    "Level": 3,
+    "Types": [
+      "Golem"
+    ],
+    "Summary": "They are immune to Heroes with low [Skill]."
+  },
+  {
+    "Name": "Arctic Animals",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 1,
+    "Summary": "Arctic Animals are well-adapted to stalking their chilled prey, attacking as you enter or leave the room.",
+    "Types": {
+      "Beast": true,
+      "Arctic Animal": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Alert": true
+    },
+    "Races": [
+      "Beast"
+    ]
+  },
+  {
+    "Name": "Abyssal Servants",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 1,
+    "Summary": "Abyssal Servants chill your bones, reducing your [HP].",
+    "Types": {
+      "Elemental": true,
+      "Demon": true,
+      "Abyssal Servant": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "HP": true
+    },
+    "Races": [
+      "Elemental",
+      "Demon"
+    ]
+  },
+  {
+    "Name": "Bloodfrost Clan",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 2,
+    "Summary": "Unimpeded by the cold, the Bloodfrost Clan strikes hard and fast, both before and after battle.",
+    "Types": {
+      "Elemental": true,
+      "Humanoid": true,
+      "Bloodfrost Clan": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Frostbite Wound": true
+    },
+    "Races": [
+      "Elemental",
+      "Humanoid"
+    ]
+  },
+  {
+    "Name": "Tundra Wolf Pack",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 2,
+    "Summary": "A Tundra Wolf Pack’s numbers and attacks are as fast as they are unpredictable, striking before and after battle. (This [Swarm] gains +[1d6] [Defense].)",
+    "Types": {
+      "Beast": true,
+      "Swarm": true,
+      "Tundra Wolf Pack": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Dice": true,
+      "Defense": true,
+      "Frostbite Wound": true,
+      "Swarm": true
+    },
+    "Races": [
+      "Beast"
+    ],
+    "Classes": [
+      "Swarm"
+    ]
+  },
+  {
+    "Name": "Frozen Natives",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 3,
+    "Summary": "An ancient race of half-dog, half-humans, the Adlet attacks are devastatingly unpredictable.",
+    "Types": {
+      "Humanoid": true,
+      "Beast": true,
+      "Frozen Native": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Frostbite Wound": true,
+      "Treasure": true
+    },
+    "Races": [
+      "Humanoid",
+      "Beast"
+    ]
+  },
+  {
+    "Name": "Ice Behemoths",
+    "Quest": "Frozen in Time",
+    "Category": "Monsters",
+    "Level": 3,
+    "Summary": "The arctic wastes abount with high [Defense] behemoths who ask no questions.",
+    "Types": {
+      "Elemental": true,
+      "Giant": true,
+      "Humanoid": true,
+      "Ice Behemoth": true,
+      "Monsters": true
+    },
+    "Keywords": {
+      "Frostbite Wound": true,
+      "Treasure": true,
+      "Defense": true
+    },
+    "Races": [
+      "Elemental",
+      "Giant",
+      "Humanoid"
+    ]
+  },
+  {
+    "Name": "Drain Dwellers",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 1,
+    "Summary": "They attack you when you try to move out of their room.",
+    "Types": {
+      "Beast": true,
+      "Drain Dweller": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Alert": true
+    },
+    "Races": [
+      "Beast"
+    ]
+  },
+  {
+    "Name": "Plague Rats",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 1,
+    "Summary": "This swarm can number in dozens or hundreds, but it often brings disease. (This [Swarm] gains +[1d6] [Defense].)",
+    "Types": {
+      "Vermin": true,
+      "Swarm": true,
+      "Plague Rat": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Dice": true,
+      "Defense": true,
+      "Wound Card": true
+    },
+    "Races": [
+      "Vermin"
+    ],
+    "Classes": [
+      "Swarm"
+    ]
+  },
+  {
+    "Name": "Ghoulish Scavengers",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 2,
+    "Summary": "They use your diseases against you.",
+    "Types": {
+      "Undead": true,
+      "Ghoulish Scavenger": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Wound Card": true
+    },
+    "Races": [
+      "Undead"
+    ]
+  },
+  {
+    "Name": "Sewer Trogs",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 2,
+    "Summary": "The Sewer Trogs are heavy wounders.",
+    "Types": {
+      "Humanoid": true,
+      "Sewer Trog": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Wound": true
+    },
+    "Races": [
+      "Humanoid"
+    ]
+  },
+  {
+    "Name": "Shapeless Spawns",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 3,
+    "Summary": "These [Aberrations] of the deep grow stronger with your [Wound Cards].",
+    "Types": {
+      "Aberration": true,
+      "Shapeless Spawn": true,
+      "Monster": true
+    },
+    "Keywords": {
+      "Wound Card": true,
+      "Treasure": true
+    },
+    "Races": [
+      "Aberration"
+    ]
+  },
+  {
+    "Name": "Waste Wyrms",
+    "Quest": "What Lies Beneath",
+    "Category": "Monsters",
+    "Level": 3,
+    "Summary": "Heavy wounders that deal both [Wound Cards] and [Wounds].",
+    "Types": {
+      "Waste Wyrm": true,
+      "Monster": true,
+      "Giant": true,
+      "Vermin": true
+    },
+    "Keywords": {
+      "Wound": true,
+      "Wound Card": true,
+      "Treasure": true
+    },
+    "Races": [
+      "Giant",
+      "Vermin"
+    ]
+  },
+  {
+    "Name": "Smorga the Queen",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Guardian of the Sun",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Baalok, the Flesh Weaver",
+    "Quest": "Risen from the Mire",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Miricelle, Scion Defender",
+    "Quest": "At the Foundations of the World",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Death Sentinel",
+    "Quest": "Ripples in Time",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Hive Mind",
+    "Quest": "What Lies Beneath",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Orgrum Coldthunder",
+    "Quest": "Frozen in Time",
+    "Category": "Guardians"
+  },
+  {
+    "Name": "Abandoned Gate",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0
+  },
+  {
+    "Name": "Mine",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Health": 1
+    },
+    "Reward": {
+      "Iron Rations": 1
+    }
+  },
+  {
+    "Name": "Crypt",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 1,
+    "Alert": true,
+    "Entry": {
+      "Unless": {
+        "Rogue": 1
+      },
+      "Penalty": {
+        "Gear": {
+          "Choose": 1
+        }
+      }
+    },
+    "Battle": {
+      "Wound": 1
+    },
+    "Reward": {
+      "XP": 1
+    }
+  },
+  {
+    "Name": "Sunken Well",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 1,
+    "Battle": {
+      "Health": 1
+    },
+    "Reward": {
+      "Lantern": 1
+    }
+  },
+  {
+    "Name": "Throne Room",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Alert": true,
+    "Entry": {
+      "Unless": {
+        "Rogue": 1
+      },
+      "Penalty": {
+        "Card": {
+          "Random": 1
+        }
+      }
+    },
+    "After Battle": {
+      "Return": 0,
+      "Text": "Place your Champion in the [0] room."
+    },
+    "Reward": {
+      "XP": 2
+    }
+  },
+  {
+    "Name": "Vault",
+    "Quest": "A Mirror in the Dark",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Battle": {
+      "Wound": 1
+    },
+    "Reward": {
+      "Treasure": 1
+    },
+    "After Battle": {
+      "Return": 2,
+      "Text": "Place your Champion in a [II] room."
+    }
+  },
+  {
+    "Name": "Fairy Meadow",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Magic Resistance": 2
+    },
+    "Reward": {
+      "Lantern": 1
+    }
+  },
+  {
+    "Name": "Ominous Looking Road",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Armor": 1
+    },
+    "Spoils": {
+      "Buy": {
+        "Spell": 1,
+        "Weapon": 1,
+        "Gold": {
+          "Bonus": 1
+        }
+      }
+    }
+  },
+  {
+    "Name": "Hollow Tree",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 2,
+    "Reward": {
+      "Potion": 1
+    },
+    "After Battle": {
+      "Return": 0,
+      "Text": "Place your Champion in the [0] room."
+    }
+  },
+  {
+    "Name": "Tree House",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 1,
+    "Battle": {
+      "Health": 2
+    },
+    "Spoils": {
+      "Destroy": {
+        "Type": "Starter",
+        "Amount": 1
+      }
+    }
+  },
+  {
+    "Name": "Elven Outpost",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Battle": {
+      "Wound": 1
+    },
+    "Spoils": {
+      "Level Up": {
+        "XP": {
+          "Discount": 2
+        }
+      },
+      "Return": 0,
+      "Text": "Level up a Hero for 2 less [XP]. Place your Champion in the [0] room."
+    }
+  },
+  {
+    "Name": "Elven Ruins",
+    "Quest": "Total Eclipse of the Sun",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Battle": {
+      "Health": "Special"
+    },
+    "Special": [
+      {
         "Unless": {
           "Rogue": 1
         },
-        "Penalty": {
-          "Gear": {
-            "Choose": 1
-          }
-        }
-      },
-      "Battle": {
-        "Wound": 1
-      },
-      "Reward": {
-        "XP": 1
-      },
-      "Category": "Dungeon Rooms"
+        "Card": {
+          "Choose": -1,
+          "From": "Hand",
+          "To": "Discard"
+        },
+        "Battle": {
+          "Health": "Special"
+        },
+        "Text": "Unless you have a Rogue, discard 1 card from your deck. +[Health] = the card's [Cost]"
+      }
+    ]
+  },
+  {
+    "Name": "Alchemy Chamber",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Health": "Special"
     },
-    "Sunken Well": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 2,
-      "Light": 1,
-      "Battle": {
-        "Health": 1
-      },
-      "Reward": {
-        "Lantern": 1
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Throne Room": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 3,
-      "Light": 2,
-      "Alert": true,
-      "Entry": {
+    "Special": [
+      {
         "Unless": {
-          "Rogue": 1
+          "Magic": 1
         },
-        "Penalty": {
-          "Card": {
-            "Random": 1
-          }
+        "Battle": {
+          "Health": 1
         }
-      },
-      "After Battle": {
-        "Return": 0,
-        "Text": "Place your Champion in the [0] room."
-      },
-      "Reward": {
-        "XP": 2
-      },
-      "Category": "Dungeon Rooms"
+      }
+    ]
+  },
+  {
+    "Name": "The Servant’s Tombs",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Armor": "Special"
     },
-    "Vault": {
-      "Quest": "A Mirror in the Dark",
-      "Level": 3,
-      "Light": 2,
-      "Battle": {
-        "Wound": 1
-      },
-      "Reward": {
-        "Treasure": 1
-      },
-      "After Battle": {
-        "Return": 2,
-        "Text": "Place your Champion in a [II] room."
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Fairy Meadow": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Magic Resistance": 2
-      },
-      "Reward": {
-        "Lantern": 1
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Ominous Looking Road": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Armor": 1
-      },
-      "Spoils": {
-        "Buy": {
-          "Spell": 1,
-          "Weapon": 1,
-          "Gold": {
-            "Bonus": 1
-          }
-        }
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Hollow Tree": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 2,
-      "Light": 2,
-      "Reward": {
-        "Potion": 1
-      },
-      "After Battle": {
-        "Return": 0,
-        "Text": "Place your Champion in the [0] room."
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Tree House": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 2,
-      "Light": 1,
-      "Battle": {
-        "Health": 2
-      },
-      "Spoils": {
-        "Destroy": {
-          "Type": "Starter",
-          "Amount": 1
-        }
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Elven Outpost": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 3,
-      "Light": 2,
-      "Battle": {
-        "Wound": 1
-      },
-      "Spoils": {
-        "Level Up": {
-          "XP": {
-            "Discount": 2
-          }
+    "Special": [
+      {
+        "Unless": {
+          "Light": 1
         },
-        "Return": 0,
-        "Text": "Level up a Hero for 2 less [XP]. Place your Champion in the [0] room."
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Elven Ruins": {
-      "Quest": "Total Eclipse of the Sun",
-      "Level": 3,
-      "Light": 2,
-      "Battle": {
-        "Health": "Special"
-      },
-      "Special": [
-        {
-          "Unless": {
-            "Rogue": 1
-          },
-          "Card": {
-            "Choose": -1,
-            "From": "Hand",
-            "To": "Discard"
-          },
-          "Battle": {
-            "Health": "Special"
-          },
-          "Text": "Unless you have a Rogue, discard 1 card from your deck. +[Health] = the card's [Cost]"
+        "Battle": {
+          "Health": 2
         }
-      ],
-      "Category": "Dungeon Rooms"
+      }
+    ]
+  },
+  {
+    "Name": "Bog",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 1,
+    "Battle": {
+      "Heroes": {
+        "Skill": -1
+      }
     },
-    "Alchemy Chamber": {
-      "Quest": "Risen from the Mire",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Health": "Special"
-      },
-      "Special": [
-        {
-          "Unless": {
-            "Magic": 1
-          },
-          "Battle": {
-            "Health": 1
-          }
-        }
-      ],
-      "Category": "Dungeon Rooms"
+    "Spoils": {
+      "Buy": {
+        "Spell": 1,
+        "Weapon": 1
+      }
+    }
+  },
+  {
+    "Name": "Sunken Graveyard",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 0,
+    "Battle": {
+      "Health": 2,
+      "Armor": "Special"
     },
-    "The Servant's Tombs": {
-      "Quest": "Risen from the Mire",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Armor": "Special"
-      },
-      "Special": [
-        {
-          "Unless": {
-            "Light": 1
-          },
-          "Battle": {
-            "Health": 2
-          }
-        }
-      ],
-      "Category": "Dungeon Rooms"
-    },
-    "Bog": {
-      "Quest": "Risen from the Mire",
-      "Level": 2,
-      "Light": 1,
-      "Battle": {
-        "Heroes": {
-          "Skill": -1
-        }
-      },
-      "Spoils": {
-        "Buy": {
-          "Spell": 1,
-          "Weapon": 1
-        }
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Sunken Graveyard": {
-      "Quest": "Risen from the Mire",
-      "Level": 2,
-      "Light": 0,
-      "Battle": {
-        "Health": 2,
-        "Armor": "Special"
-      },
-      "Special": [
-        {
-          "Unless": {
-            "Light": 2
-          },
-          "Battle": {
-            "Armor": 3
-          }
-        }
-      ],
-      "Reward": {
-        "Iron Rations": 1
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Blood Altar Room": {
-      "Quest": "Risen from the Mire",
-      "Level": 3,
-      "Light": 2,
-      "Alert": true,
-      "Special": [
-        {
-          "Cost": {
-            "Wound": 1
-          },
-          "Light": -1,
-          "Text": "You may take 1 or more [Wound] to reduce this room's [Light] by 1 for each [Wound] taken."
-        }
-      ],
-      "Battle": {
-        "Health": 2
-      },
-      "Reward": {
-        "XP": 2
-      },
-      "After Battle": {
-        "Return": 0
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "The Lich's Tomb": {
-      "Quest": "Risen from the Mire",
-      "Level": 3,
-      "Light": 1,
-      "Battle": {
-        "Health": "Special"
-      },
-      "Special": [
-        {
-          "Text": "Roll 2d6. +[Health] = the lower value rolled, or the total value if you rolled doubles."
-        }
-      ],
-      "Reward": {
-        "XP": 3
-      },
-      "After Battle": {
-        "Return": 0
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Air Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Magic Resistance": 1
-      },
-      "Spoils": {
-        "Buy": {
-          "Item": 1
-        }
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Water Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 1,
-      "Light": 1,
-      "Special": [
-        {
-          "Text": "Refill this room from the other [I] room. Then, refill that room from the Monster deck."
-        }
-      ],
-      "Reward": {
-        "Iron Rations": 1
-      },
-      "Category": "Dungeon Rooms"
-    },
-    "Earth Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 2,
-      "Light": 1,
-      "Special": [
-        {
-          "Requires": {
-            "Text": "If your total Attack ([Physical] + [Magic]) exceeds this Monster's [Health] by 3 or more, you have +1 HP."
-          },
-          "Reward": {
-            "HP": 1
-          }
-        }
-      ],
-      "Category": "Dungeon Rooms"
-    },
-    "Fire Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 2,
-      "Light": 0,
-      "Battle": {
-        "Weapons": {
-          "Skill": 2
+    "Special": [
+      {
+        "Unless": {
+          "Light": 2
         },
-        "Wound": 1
-      },
-      "Reward": {
-        "Lantern": 2
-      },
-      "Category": "Dungeon Rooms"
+        "Battle": {
+          "Armor": 3
+        }
+      }
+    ],
+    "Reward": {
+      "Iron Rations": 1
+    }
+  },
+  {
+    "Name": "Blood Altar Room",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Alert": true,
+    "Special": [
+      {
+        "Cost": {
+          "Wound": 1
+        },
+        "Light": -1,
+        "Text": "You may take 1 or more [Wound] to reduce this room's [Light] by 1 for each [Wound] taken."
+      }
+    ],
+    "Battle": {
+      "Health": 2
     },
-    "Abyssal Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 3,
-      "Light": 2,
-      "After Battle": {
-        "Text": "Refill this room face down. Turn this room's Monster face up before a battle here; if it is not defeated put it at the bottom of its deck."
+    "Reward": {
+      "XP": 2
+    },
+    "After Battle": {
+      "Return": 0
+    }
+  },
+  {
+    "Name": "The Lich’s Tomb",
+    "Quest": "Risen from the Mire",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 1,
+    "Battle": {
+      "Health": "Special"
+    },
+    "Special": [
+      {
+        "Text": "Roll 2d6. +[Health] = the lower value rolled, or the total value if you rolled doubles."
+      }
+    ],
+    "Reward": {
+      "XP": 3
+    },
+    "After Battle": {
+      "Return": 0
+    }
+  },
+  {
+    "Name": "Air Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Magic Resistance": 1
+    },
+    "Spoils": {
+      "Buy": {
+        "Item": 1
+      }
+    }
+  },
+  {
+    "Name": "Water Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 1,
+    "Special": [
+      {
+        "Text": "Refill this room from the other [I] room. Then, refill that room from the Monster deck."
+      }
+    ],
+    "Reward": {
+      "Iron Rations": 1
+    }
+  },
+  {
+    "Name": "Earth Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 1,
+    "Special": [
+      {
+        "Requires": {
+          "Text": "If your total Attack ([Physical] + [Magic]) exceeds this Monster's [Health] by 3 or more, you have +1 HP."
+        },
+        "Reward": {
+          "HP": 1
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Fire Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 0,
+    "Battle": {
+      "Weapons": {
+        "Skill": 2
       },
-      "Spoils": {
-        "Return": 0,
+      "Wound": 1
+    },
+    "Reward": {
+      "Lantern": 2
+    }
+  },
+  {
+    "Name": "Abyssal Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "After Battle": {
+      "Text": "Refill this room face down. Turn this room's Monster face up before a battle here; if it is not defeated put it at the bottom of its deck."
+    },
+    "Spoils": {
+      "Return": 0,
+      "XP": "Special",
+      "Text": "Gain [XP] equal to your total [Light]. At the end of the turn, place your Champion in the 0 room."
+    },
+    "Special": [
+      {
+        "Cost": {
+          "Return": 0
+        },
         "XP": "Special",
         "Text": "Gain [XP] equal to your total [Light]. At the end of the turn, place your Champion in the 0 room."
-      },
-      "Special": [
-        {
-          "Cost": {
-            "Return": 0
-          },
-          "XP": "Special",
-          "Text": "Gain [XP] equal to your total [Light]. At the end of the turn, place your Champion in the 0 room."
-        }
-      ],
-      "Category": "Dungeon Rooms"
+      }
+    ]
+  },
+  {
+    "Name": "Celestial Temple",
+    "Quest": "At the Foundations of the World",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 2,
+    "Battle": {
+      "Health": 1,
+      "Magic Resistance": 2
     },
-    "Celestial Temple": {
-      "Quest": "At the Foundations of the World",
-      "Level": 3,
-      "Light": 2,
-      "Battle": {
-        "Health": 1,
-        "Magic Resistance": 2
-      },
-      "Reward": {
-        "Treasure": 1
-      },
-      "After Battle": {
-        "Return": 0,
-        "Text": "Place your Champion in the [0] room."
-      },
-      "Category": "Dungeon Rooms"
+    "Reward": {
+      "Treasure": 1
     },
-    "Gate Cavern": {
-      "Quest": "Ripples in Time",
-      "Level": 1,
-      "Light": 0,
-      "Battle": {
-        "Health": 2
-      },
-      "Special": [
-        {
-          "Requires": {
-            "Light": 1
-          },
-          "Bonus": {
-            "Health": -2
-          },
-          "Repeatable": true,
-          "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
-        }
-      ],
-      "Category": "Dungeon Rooms"
-    },
-    "Dangerous Passageway": {
-      "Quest": "Ripples in Time",
-      "Level": 2,
-      "Light": 0,
-      "Battle": {
-        "Health": 4
-      },
-      "Special": [
-        {
-          "Requires": {
-            "Light": 1
-          },
-          "Bonus": {
-            "Health": -2
-          },
-          "Repeatable": true,
-          "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
-        }
-      ],
-      "Category": "Dungeon Rooms"
-    },
-    "Fire Chasm": {
-      "Quest": "Ripples in Time",
-      "Level": 3,
-      "Light": 0,
-      "Battle": {
-        "Health": 6
-      },
-      "Special": [
-        {
-          "Requires": {
-            "Light": 1
-          },
-          "Bonus": {
-            "Health": -2
-          },
-          "Repeatable": true,
-          "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
-        }
-      ],
-      "Category": "Dungeon Rooms"
-    },
-    "Icy Glade": {
-      "Quest": "Frozen in Time",
-      "Level": 1,
-      "Category": "Dungeon Rooms"
-    },
-    "Volcanic Hot Springs": {
-      "Quest": "Frozen in Time",
-      "Level": 1,
-      "Category": "Dungeon Rooms"
-    },
-    "Orc Tribute Site": {
-      "Quest": "Frozen in Time",
-      "Level": 2,
-      "Category": "Dungeon Rooms"
-    },
-    "Tundra Chasms": {
-      "Quest": "Frozen in Time",
-      "Level": 2,
-      "Category": "Dungeon Rooms"
-    },
-    "Adlet Hunting Ground": {
-      "Quest": "Frozen in Time",
-      "Level": 3,
-      "Category": "Dungeon Rooms"
-    },
-    "Glacial Tomb": {
-      "Quest": "Frozen in Time",
-      "Level": 3,
-      "Category": "Dungeon Rooms"
-    },
-    "Junction": {
-      "Quest": "What Lies Beneath",
-      "Level": 1,
-      "Category": "Dungeon Rooms"
-    },
-    "Rat Nest": {
-      "Quest": "What Lies Beneath",
-      "Level": 1,
-      "Category": "Dungeon Rooms"
-    },
-    "Ghoul Nest": {
-      "Quest": "What Lies Beneath",
-      "Level": 2,
-      "Category": "Dungeon Rooms"
-    },
-    "Trog Village": {
-      "Quest": "What Lies Beneath",
-      "Level": 2,
-      "Category": "Dungeon Rooms"
-    },
-    "Arches": {
-      "Quest": "What Lies Beneath",
-      "Level": 3,
-      "Category": "Dungeon Rooms"
-    },
-    "Catacombs": {
-      "Quest": "What Lies Beneath",
-      "Level": 3,
-      "Category": "Dungeon Rooms"
+    "After Battle": {
+      "Return": 0,
+      "Text": "Place your Champion in the [0] room."
     }
+  },
+  {
+    "Name": "Gate Cavern",
+    "Quest": "Ripples in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 1,
+    "Light": 0,
+    "Battle": {
+      "Health": 2
+    },
+    "Special": [
+      {
+        "Requires": {
+          "Light": 1
+        },
+        "Bonus": {
+          "Health": -2
+        },
+        "Repeatable": true,
+        "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
+      }
+    ]
+  },
+  {
+    "Name": "Dangerous Passageway",
+    "Quest": "Ripples in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 2,
+    "Light": 0,
+    "Battle": {
+      "Health": 4
+    },
+    "Special": [
+      {
+        "Requires": {
+          "Light": 1
+        },
+        "Bonus": {
+          "Health": -2
+        },
+        "Repeatable": true,
+        "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
+      }
+    ]
+  },
+  {
+    "Name": "Fire Chasm",
+    "Quest": "Ripples in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 3,
+    "Light": 0,
+    "Battle": {
+      "Health": 6
+    },
+    "Special": [
+      {
+        "Requires": {
+          "Light": 1
+        },
+        "Bonus": {
+          "Health": -2
+        },
+        "Repeatable": true,
+        "Text": "For each [Light] you have, reduce the [Health] boost of this room by 2."
+      }
+    ]
+  },
+  {
+    "Name": "Icy Glade",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 1
+  },
+  {
+    "Name": "Volcanic Hot Springs",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 1
+  },
+  {
+    "Name": "Orc Tribute Site",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 2
+  },
+  {
+    "Name": "Tundra Chasms",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 2
+  },
+  {
+    "Name": "Adlet Hunting Ground",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 3
+  },
+  {
+    "Name": "Glacial Tomb",
+    "Quest": "Frozen in Time",
+    "Category": "Dungeon Rooms",
+    "Level": 3
+  },
+  {
+    "Name": "Junction",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 1
+  },
+  {
+    "Name": "Rat Nest",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 1
+  },
+  {
+    "Name": "Ghoul Nest",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 2
+  },
+  {
+    "Name": "Trog Village",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 2
+  },
+  {
+    "Name": "Arches",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 3
+  },
+  {
+    "Name": "Catacombs",
+    "Quest": "What Lies Beneath",
+    "Category": "Dungeon Rooms",
+    "Level": 3
   }
-}
+]

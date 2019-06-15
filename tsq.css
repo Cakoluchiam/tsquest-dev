@@ -1,0 +1,145 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#frame {
+  position:absolute;
+  width: calc(100% - 10px);
+  height:0;
+  left:5px;
+  top:5px;
+  padding-top: calc(100% - 10px);
+}
+
+#board {
+  border: 1px black solid;
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  padding-top:100%;
+}
+
+#marketplace {
+  position:absolute;
+  width:46.52%;
+  top:5%;
+  left:24.26%;
+  padding-top:8%;
+  font-weight:bold;
+}
+
+#guildsquarters {
+  position:absolute;
+  width:46.52%;
+  top:46.464%;
+  left:24.26%;
+  padding-top:8%;
+  font-weight:bold;
+}
+
+.card {
+  position:absolute;
+  width:10.88%;
+  padding-top:15.232%;
+  overflow:hidden;
+}
+
+#board div {
+  border: 1px black solid;
+  transform: translate(-50%, -50%);
+  background-color:lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition:0.3s;
+}
+
+#board div:hover {
+  background-color:lightblue;
+  box-shadow: 0 8px 16px 0 rgba(0,96,192, 0.2), 0 12px 40px 0 rgba(0,96,192, 0.19);
+  transition:0.3s;
+}
+
+#wilderness, #lair {
+  position:absolute;
+  width:38.6%;
+  left:79.7%;
+  padding-top:18.8%;
+  font-weight:bold;
+}
+
+.room {
+  position:absolute;
+  width:18.8%;
+  padding-top:18.8%;
+  overflow:hidden;
+}
+
+.row1 {
+  top:17.616%;
+}
+
+.row2 {
+  top:33.848%;
+}
+
+.row3 {
+  top:59.08%;
+}
+
+.level0 {
+  top:10.4%;
+}
+
+.level1 {
+  top:30.2%;
+}
+
+.level2 {
+  top:50%;
+}
+
+.level3 {
+  top:69.8%;
+}
+
+.level4 {
+  top:89.6%;
+}
+
+.column1 {
+  left:6.44%;
+}
+
+.column2 {
+  left:18.32%;
+}
+
+.column3 {
+  left:30.2%;
+}
+
+.column4 {
+  left:42.08%;
+}
+
+.column5 {
+  left:53.96%;
+}
+
+.column6 {
+  left:69.8%;
+}
+
+.column7 {
+  left:89.6%;
+}
+
+.contents {
+  position:absolute;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform: translate(-50%, -50%);
+}
